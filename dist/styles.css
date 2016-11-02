@@ -41,8 +41,3 @@ body {
 .superdev:hover {
     background-color: rgb(100,100,100);
 }
-
-* {
-   margin: 0;
-   padding: 0;
-}
