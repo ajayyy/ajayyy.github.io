@@ -1,9 +1,11 @@
 canvas {
+    display:block;
     cursor: default;
     outline: none;
 }
 
 body {
+    margin:0;
     background-color: #222222;
 }
 
