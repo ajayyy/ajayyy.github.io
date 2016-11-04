@@ -1,0 +1,70 @@
+{
+   "chrome_app_chrome_signin_message": {
+      "message": "Log masuk ke Chrome untuk bermula."
+   },
+   "chrome_app_connection_error_button": {
+      "message": "Cuba lagi"
+   },
+   "chrome_app_connection_error_detail": {
+      "message": "Pastikan anda disambungkan ke Internet, kemudian cuba lagi"
+   },
+   "chrome_app_connection_error_title": {
+      "message": "Ralat Sambungan"
+   },
+   "chrome_app_description": {
+      "message": "Apl desktop baharu untuk Hangouts membolehkan anda sentiasa terhubung."
+   },
+   "chrome_app_learn_more_message": {
+      "message": "Ketahui lebih lanjut"
+   },
+   "chrome_app_outdated_detail": {
+      "message": "Apl ini sudah usang. Versi yang lebih baharu tersedia."
+   },
+   "chrome_app_outdated_title": {
+      "message": "Kemas kini apl Chrome Hangouts anda"
+   },
+   "chrome_app_signin_button": {
+      "message": "Log masuk"
+   },
+   "chrome_app_welcome_message": {
+      "message": "Nikmati perbualan peribadi dan berkumpulan dengan teks, foto, gif, suara, video dan banyak lagi."
+   },
+   "chrome_app_window_title": {
+      "message": "Hangouts Google - $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "chrome_ext_cannot_connect": {
+      "message": "Gagal menyambung ke Google. Sila semak sambungan internet anda."
+   },
+   "chrome_ext_description": {
+      "message": "Anda dapat menyemarakkan perbualan dalam Hangouts dengan foto, emoji serta panggilan video kumpulan secara percuma."
+   },
+   "chrome_ext_tip_connected_missed_messages": {
+      "message": "Status: Bersambung\nMesej terlepas"
+   },
+   "chrome_hangouts_short_name": {
+      "message": "Hangouts Google"
+   },
+   "quasar_tip_connected": {
+      "message": "Status: Bersambung"
+   },
+   "quasar_tip_connecting": {
+      "message": "Status: Sedang menyambung"
+   },
+   "quasar_tip_disconnected": {
+      "message": "Status: Sambungan diputuskan"
+   },
+   "quasar_tip_not_load": {
+      "message": "Status: Ralat pemuatan"
+   },
+   "quasar_tip_not_login": {
+      "message": "Status: Tidak dilog masuk"
+   },
+   "quasar_tip_reconnecting": {
+      "message": "Status: Menyambung semula"
+   }
+}

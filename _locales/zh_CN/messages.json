@@ -1,0 +1,70 @@
+{
+   "chrome_app_chrome_signin_message": {
+      "message": "登录Chrome即可开始使用。"
+   },
+   "chrome_app_connection_error_button": {
+      "message": "重试"
+   },
+   "chrome_app_connection_error_detail": {
+      "message": "请确保你已连接到互联网，然后重试"
+   },
+   "chrome_app_connection_error_title": {
+      "message": "网络错误"
+   },
+   "chrome_app_description": {
+      "message": "借助全新桌面版环聊应用，时刻与他人保持联系。"
+   },
+   "chrome_app_learn_more_message": {
+      "message": "了解详情"
+   },
+   "chrome_app_outdated_detail": {
+      "message": "此应用已过时，现已有新版本。"
+   },
+   "chrome_app_outdated_title": {
+      "message": "更新你的环聊 Chrome 应用"
+   },
+   "chrome_app_signin_button": {
+      "message": "登录"
+   },
+   "chrome_app_welcome_message": {
+      "message": "通过文字、照片、GIF、语音和视频等畅快地私聊和群聊。"
+   },
+   "chrome_app_window_title": {
+      "message": "Google 环聊 - $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "chrome_ext_cannot_connect": {
+      "message": "无法连接到 Google，请检查你的互联网连接。"
+   },
+   "chrome_ext_description": {
+      "message": "环聊让对话更生动有趣：不但可以发送图片和表情符，还能免费视频聊天。"
+   },
+   "chrome_ext_tip_connected_missed_messages": {
+      "message": "状态：已连接\n有错过的消息"
+   },
+   "chrome_hangouts_short_name": {
+      "message": "Google 环聊"
+   },
+   "quasar_tip_connected": {
+      "message": "状态：已连接"
+   },
+   "quasar_tip_connecting": {
+      "message": "状态：正在连接"
+   },
+   "quasar_tip_disconnected": {
+      "message": "状态：连接中断"
+   },
+   "quasar_tip_not_load": {
+      "message": "状态：加载时出错"
+   },
+   "quasar_tip_not_login": {
+      "message": "状态：未登录"
+   },
+   "quasar_tip_reconnecting": {
+      "message": "状态：正在重新连接"
+   }
+}

@@ -1,0 +1,70 @@
+{
+   "chrome_app_chrome_signin_message": {
+      "message": "Začnite prihlásením do prehliadača Chrome."
+   },
+   "chrome_app_connection_error_button": {
+      "message": "Skúsiť znova"
+   },
+   "chrome_app_connection_error_detail": {
+      "message": "Skontrolujte, či máte pripojenie k internetu, a skúste znova"
+   },
+   "chrome_app_connection_error_title": {
+      "message": "Chyba pripojenia"
+   },
+   "chrome_app_description": {
+      "message": "Vďaka novej aplikácii Hangouts v počítači ostanete stále v kontakte."
+   },
+   "chrome_app_learn_more_message": {
+      "message": "Viac informácií"
+   },
+   "chrome_app_outdated_detail": {
+      "message": "Táto aplikácia je zastaraná. K dispozícii je nová verzia."
+   },
+   "chrome_app_outdated_title": {
+      "message": "Aktualizujte svoju aplikáciu Hangouts pre prehliadač Chrome"
+   },
+   "chrome_app_signin_button": {
+      "message": "Prihlásiť sa"
+   },
+   "chrome_app_welcome_message": {
+      "message": "Môžete sa zúčastňovať súkromných a skupinových konverzácií s využitím textu, fotiek a animácií GIF, s hlasovými hovormi a videohovormi a ďalšími funkciami."
+   },
+   "chrome_app_window_title": {
+      "message": "Google Hangouts – $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "chrome_ext_cannot_connect": {
+      "message": "Nedá sa pripojiť k službe Google. Skontrolujte internetové pripojenie."
+   },
+   "chrome_ext_description": {
+      "message": "Služba Hangouts oživuje konverzácie fotkami, ikonami emodži a dokonca aj skupinovými videohovormi zadarmo."
+   },
+   "chrome_ext_tip_connected_missed_messages": {
+      "message": "Stav: Pripojená\nZmeškané správy"
+   },
+   "chrome_hangouts_short_name": {
+      "message": "Google Hangouts"
+   },
+   "quasar_tip_connected": {
+      "message": "Stav: Pripojené"
+   },
+   "quasar_tip_connecting": {
+      "message": "Stav: Pripája sa"
+   },
+   "quasar_tip_disconnected": {
+      "message": "Stav: Odpojené"
+   },
+   "quasar_tip_not_load": {
+      "message": "Stav: Chyba načítavania"
+   },
+   "quasar_tip_not_login": {
+      "message": "Stav: Bez prihlásenia"
+   },
+   "quasar_tip_reconnecting": {
+      "message": "Stav: Znova sa pripája"
+   }
+}

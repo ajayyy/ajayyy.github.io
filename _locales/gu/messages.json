@@ -1,0 +1,70 @@
+{
+   "chrome_app_chrome_signin_message": {
+      "message": "પ્રારંભ કરવા માટે Chrome માં સાઇન ઇન કરો."
+   },
+   "chrome_app_connection_error_button": {
+      "message": "ફરી પ્રયાસ કરો"
+   },
+   "chrome_app_connection_error_detail": {
+      "message": "તમે ઇન્ટરનેટ સાથે કનેક્ટ થયેલ છો તેની ખાતરી કરો અને ફરી પ્રયાસ કરો"
+   },
+   "chrome_app_connection_error_title": {
+      "message": "કનેક્શન ભૂલ"
+   },
+   "chrome_app_description": {
+      "message": "Hangouts માટેની નવી ડેસ્કટોપ ઍપ્લિકેશન વડે હંમેશાં કનેક્ટ થયેલા રહો."
+   },
+   "chrome_app_learn_more_message": {
+      "message": "વધુ જાણો"
+   },
+   "chrome_app_outdated_detail": {
+      "message": "આ ઍપ્લિકેશન જૂની છે. એક નવું સંસ્કરણ ઉપલબ્ધ છે."
+   },
+   "chrome_app_outdated_title": {
+      "message": "તમારી Hangouts Chrome ઍપ્લિકેશન અપડેટ કરો"
+   },
+   "chrome_app_signin_button": {
+      "message": "સાઇન ઇન"
+   },
+   "chrome_app_welcome_message": {
+      "message": "ટેક્સ્ટ, ફોટા, gif, વૉઇસ, વિડિઓ અને વધુ સાથે ખાનગી અને જૂથ વાર્તાલાપનો આનંદ લો."
+   },
+   "chrome_app_window_title": {
+      "message": "Google Hangouts - $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "chrome_ext_cannot_connect": {
+      "message": "Google પર કનેક્ટ કરવામાં અક્ષમ. કૃપા કરીને તમારું ઇન્ટરનેટ કનેક્શન તપાસો."
+   },
+   "chrome_ext_description": {
+      "message": "Hangouts ફોટાઓ, ઇમોજી સાથે વાતચીતો જીવંત બનાવે છે, અને મફતમાં જૂથ વિડિઓ કૉલ્સ પણ કરે છે."
+   },
+   "chrome_ext_tip_connected_missed_messages": {
+      "message": "સ્થિતિ: જોડાયેલ\nછૂટેલા સંદેશા"
+   },
+   "chrome_hangouts_short_name": {
+      "message": "Google હેંગઆઉટ"
+   },
+   "quasar_tip_connected": {
+      "message": "સ્થિતી: જોડાયું"
+   },
+   "quasar_tip_connecting": {
+      "message": "સ્થિતી: જોડી રહ્યું છે"
+   },
+   "quasar_tip_disconnected": {
+      "message": "સ્થિતી: જોડાણ કપાય ગયું"
+   },
+   "quasar_tip_not_load": {
+      "message": "સ્થિતી: લોડિંગ ભૂલ"
+   },
+   "quasar_tip_not_login": {
+      "message": "સ્થિતી: લોગઇન નથીં કર્યુ"
+   },
+   "quasar_tip_reconnecting": {
+      "message": "સ્થિતી: ફરિથી જોડી રહ્યું છે"
+   }
+}

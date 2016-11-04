@@ -1,0 +1,70 @@
+{
+   "chrome_app_chrome_signin_message": {
+      "message": "ಪ್ರಾರಂಭಿಸಲು Chrome ಗೆ ಸೈನ್‌ ಇನ್‌ ಮಾಡಿ."
+   },
+   "chrome_app_connection_error_button": {
+      "message": "ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ"
+   },
+   "chrome_app_connection_error_detail": {
+      "message": "ನೀವು ಇಂಟರ್ನೆಟ್‌ ಸಂಪರ್ಕ ಹೊಂದಿರುವುದನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ ಹಾಗೂ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ"
+   },
+   "chrome_app_connection_error_title": {
+      "message": "ಸಂಪರ್ಕ ದೋಷ"
+   },
+   "chrome_app_description": {
+      "message": "Hangouts  ಹೊಸ ಡೆಸ್ಕ್‌ಟಾಪ್ ಅಪ್ಲಿಕೇಶನ್‌ನೊಂದಿಗೆ ಯಾವಾಗಲೂ ಸಂಪರ್ಕದಲ್ಲಿರಿ."
+   },
+   "chrome_app_learn_more_message": {
+      "message": "ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ"
+   },
+   "chrome_app_outdated_detail": {
+      "message": "ಈ ಅಪ್ಲಿಕೇಶನ್ ಅವಧಿ ಮುಗಿದಿದೆ. ಹೊಸ ಆವೃತ್ತಿ ಲಭ್ಯವಿದೆ."
+   },
+   "chrome_app_outdated_title": {
+      "message": "ನಿಮ್ಮ Hangouts Chrome ಅಪ್ಲಿಕೇಶನ್ ನವೀಕರಿಸಿ"
+   },
+   "chrome_app_signin_button": {
+      "message": "ಸೈನ್ ಇನ್ ಮಾಡಿ"
+   },
+   "chrome_app_welcome_message": {
+      "message": "ಪಠ್ಯ ಸಂದೇಶ, ಫೋಟೋಗಳು, gifಗಳು, ಧ್ವನಿ, ವೀಡಿಯೊ ಮತ್ತು ಇನ್ನಷ್ಟು ಸಂಗತಿಗಳನ್ನು ಬಳಸಿಕೊಳ್ಳುವ ಮೂಲಕ ಖಾಸಗಿ ಹಾಗೂ ಗುಂಪು ಸಂವಾದಗಳ ಸಂತೋಷವನ್ನು ನಿಮ್ಮದಾಗಿಸಿಕೊಳ್ಳಿ."
+   },
+   "chrome_app_window_title": {
+      "message": "Google Hangouts - $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "chrome_ext_cannot_connect": {
+      "message": "Google ಗೆ ಸಂಪರ್ಕಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ. ದಯವಿಟ್ಟು ನಿಮ್ಮ ಇಂಟರ್ನೆಟ್ ಸಂಪರ್ಕವನ್ನು ಪರಿಶೀಲಿಸಿ."
+   },
+   "chrome_ext_description": {
+      "message": "ಫೋಟೋಗಳು, ಎಮೋಜಿ, ಮತ್ತು ಉಚಿತವಾದ ಗುಂಪು ವೀಡಿಯೊ ಕರೆಗಳೊಂದಿಗೆ Hangouts ಸಂವಾದಗಳಿಗೆ ಜೀವ ತುಂಬುತ್ತದೆ."
+   },
+   "chrome_ext_tip_connected_missed_messages": {
+      "message": "ಸ್ಥಿತಿ: ಸಂಪರ್ಕಿಸಲಾಗಿದೆ\nಸಂದೇಶಗಳು ಕಾಣೆಯಾಗಿವೆ"
+   },
+   "chrome_hangouts_short_name": {
+      "message": "Google Hangouts"
+   },
+   "quasar_tip_connected": {
+      "message": "ಸ್ಥಿತಿ: ಸಂಪರ್ಕ ಹೊಂದಿದೆ"
+   },
+   "quasar_tip_connecting": {
+      "message": "ಸ್ಥಿತಿ: ಸಂಪರ್ಕ ಹೊಂದುತ್ತಿದೆ"
+   },
+   "quasar_tip_disconnected": {
+      "message": "ಸ್ಥಿತಿ: ಸಂಪರ್ಕ ಕಡಿತಗೊಂಡಿದೆ"
+   },
+   "quasar_tip_not_load": {
+      "message": "ಸ್ಥಿತಿ: ಲೋಡಿಂಗ್‌ ದೋಷ"
+   },
+   "quasar_tip_not_login": {
+      "message": "ಸ್ಥಿತಿ: ಲಾಗ್‌ ಇನ್‌ ಮಾಡಲಾಗಿಲ್ಲ"
+   },
+   "quasar_tip_reconnecting": {
+      "message": "ಸ್ಥಿತಿ: ಮರುಸಂಪರ್ಕ ಹೊಂದುತ್ತಿದೆ"
+   }
+}

@@ -1,0 +1,70 @@
+{
+   "chrome_app_chrome_signin_message": {
+      "message": "Prijavite se u Chrome da biste započeli."
+   },
+   "chrome_app_connection_error_button": {
+      "message": "Pokušaj ponovno"
+   },
+   "chrome_app_connection_error_detail": {
+      "message": "Provjerite jeste li povezani s internetom i pokušajte ponovno"
+   },
+   "chrome_app_connection_error_title": {
+      "message": "Pogreška pri povezivanju"
+   },
+   "chrome_app_description": {
+      "message": "Budite uvijek povezani uz novu računalnu aplikaciju Hangouts."
+   },
+   "chrome_app_learn_more_message": {
+      "message": "Saznajte više"
+   },
+   "chrome_app_outdated_detail": {
+      "message": "Aplikacija je zastarjela. Dostupna je novija verzija."
+   },
+   "chrome_app_outdated_title": {
+      "message": "Ažurirajte aplikaciju Hangouts za Chrome"
+   },
+   "chrome_app_signin_button": {
+      "message": "Prijava"
+   },
+   "chrome_app_welcome_message": {
+      "message": "Uživajte u privatnim i grupnim razgovorima s tekstom, fotografijama, .gif slikama, glasom, videozapisima i ostalim."
+   },
+   "chrome_app_window_title": {
+      "message": "Google Hangouts: $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "chrome_ext_cannot_connect": {
+      "message": "Povezivanje s Googleom nije moguće. Provjerite internetsku vezu."
+   },
+   "chrome_ext_description": {
+      "message": "Hangouts oživljava razgovore uz fotografije, emotikone pa čak i besplatne grupne videopozive."
+   },
+   "chrome_ext_tip_connected_missed_messages": {
+      "message": "Status: povezano\nImate propuštene poruke"
+   },
+   "chrome_hangouts_short_name": {
+      "message": "Google Hangouts"
+   },
+   "quasar_tip_connected": {
+      "message": "Status: povezan"
+   },
+   "quasar_tip_connecting": {
+      "message": "Status: povezivanje u tijeku"
+   },
+   "quasar_tip_disconnected": {
+      "message": "Status: veza je prekinuta"
+   },
+   "quasar_tip_not_load": {
+      "message": "Status: pogreška pri učitavanju"
+   },
+   "quasar_tip_not_login": {
+      "message": "Status: niste prijavljeni"
+   },
+   "quasar_tip_reconnecting": {
+      "message": "Status: ponovno povezivanje u tijeku"
+   }
+}

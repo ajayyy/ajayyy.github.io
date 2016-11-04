@@ -1,0 +1,70 @@
+{
+   "chrome_app_chrome_signin_message": {
+      "message": "Mag-sign in sa Chrome para magsimula."
+   },
+   "chrome_app_connection_error_button": {
+      "message": "Subukang muli"
+   },
+   "chrome_app_connection_error_detail": {
+      "message": "Tiyakin na nakakonekta ka sa Internet at subukan ulit"
+   },
+   "chrome_app_connection_error_title": {
+      "message": "Error sa Koneksiyon"
+   },
+   "chrome_app_description": {
+      "message": "Palaging manatiling konektado sa bagong desktop app para sa Hangouts."
+   },
+   "chrome_app_learn_more_message": {
+      "message": "Alamin pa"
+   },
+   "chrome_app_outdated_detail": {
+      "message": "Luma na ang app na ito. Mayroong available na mas bagong bersyon."
+   },
+   "chrome_app_outdated_title": {
+      "message": "I-update ang iyong Hangouts Chrome app"
+   },
+   "chrome_app_signin_button": {
+      "message": "Mag-sign in"
+   },
+   "chrome_app_welcome_message": {
+      "message": "I-enjoy ang mga pribado at panggrupong pag-uusap na may kasamang teksto, mga larawan, gif, voice, video at higit pa."
+   },
+   "chrome_app_window_title": {
+      "message": "Google Hangouts - $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "chrome_ext_cannot_connect": {
+      "message": "Hindi makakonekta sa Google. Pakitingnan ang iyong koneksyon sa internet."
+   },
+   "chrome_ext_description": {
+      "message": "Binubuhay ng Hangouts ang mga pag-uusap gamit ang mga larawan, emoji, at pati ang mga group video call nang libre."
+   },
+   "chrome_ext_tip_connected_missed_messages": {
+      "message": "Status: Konektado\nMga nalaktawang mensahe"
+   },
+   "chrome_hangouts_short_name": {
+      "message": "Google Hangouts"
+   },
+   "quasar_tip_connected": {
+      "message": "Katayuan: Nakakonekta"
+   },
+   "quasar_tip_connecting": {
+      "message": "Katayuan: Kumokonekta"
+   },
+   "quasar_tip_disconnected": {
+      "message": "Katayuan: Hindi Nakakonekta"
+   },
+   "quasar_tip_not_load": {
+      "message": "Katayuan: Error sa paglo-load"
+   },
+   "quasar_tip_not_login": {
+      "message": "Katayuan: Hindi naka-log in"
+   },
+   "quasar_tip_reconnecting": {
+      "message": "Katayuan: Muling Kumokonekta"
+   }
+}

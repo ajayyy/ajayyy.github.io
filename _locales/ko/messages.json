@@ -1,0 +1,70 @@
+{
+   "chrome_app_chrome_signin_message": {
+      "message": "시작하려면 Chrome에 로그인하세요."
+   },
+   "chrome_app_connection_error_button": {
+      "message": "다시 시도"
+   },
+   "chrome_app_connection_error_detail": {
+      "message": "인터넷에 연결되어 있는지 확인하고 다시 시도해 주세요."
+   },
+   "chrome_app_connection_error_title": {
+      "message": "연결 오류"
+   },
+   "chrome_app_description": {
+      "message": "새로운 데스크톱 행아웃 앱으로 언제든지 소식을 주고받으세요."
+   },
+   "chrome_app_learn_more_message": {
+      "message": "자세히 알아보기"
+   },
+   "chrome_app_outdated_detail": {
+      "message": "앱 버전이 오래되었습니다. 최신 버전을 이용할 수 있습니다."
+   },
+   "chrome_app_outdated_title": {
+      "message": "행아웃 Chrome 앱 업데이트"
+   },
+   "chrome_app_signin_button": {
+      "message": "로그인"
+   },
+   "chrome_app_welcome_message": {
+      "message": "텍스트, 사진, GIF, 음성, 영상 등을 사용하여 비공개 및 그룹 대화를 즐기세요."
+   },
+   "chrome_app_window_title": {
+      "message": "Google 행아웃 - $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "chrome_ext_cannot_connect": {
+      "message": "Google에 연결할 수 없습니다. 인터넷 연결 상태를 확인해 보세요."
+   },
+   "chrome_ext_description": {
+      "message": "행아웃은 사진, 이모티콘, 무료 그룹 화상 통화 기능을 통해 대화에 활기를 불어넣습니다."
+   },
+   "chrome_ext_tip_connected_missed_messages": {
+      "message": "상태: 연결됨\n확인하지 않은 메시지 있음"
+   },
+   "chrome_hangouts_short_name": {
+      "message": "Google 행아웃"
+   },
+   "quasar_tip_connected": {
+      "message": "상태: 연결됨"
+   },
+   "quasar_tip_connecting": {
+      "message": "상태: 연결하는 중"
+   },
+   "quasar_tip_disconnected": {
+      "message": "상태: 연결 끊김"
+   },
+   "quasar_tip_not_load": {
+      "message": "상태: 로드 중 오류"
+   },
+   "quasar_tip_not_login": {
+      "message": "상태: 로그인하지 않음"
+   },
+   "quasar_tip_reconnecting": {
+      "message": "상태: 다시 연결하는 중"
+   }
+}

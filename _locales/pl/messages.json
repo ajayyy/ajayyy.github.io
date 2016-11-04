@@ -1,0 +1,70 @@
+{
+   "chrome_app_chrome_signin_message": {
+      "message": "Zaloguj się w Chrome, by rozpocząć."
+   },
+   "chrome_app_connection_error_button": {
+      "message": "Spróbuj ponownie"
+   },
+   "chrome_app_connection_error_detail": {
+      "message": "Upewnij się, że masz połączenie z internetem, i spróbuj ponownie"
+   },
+   "chrome_app_connection_error_title": {
+      "message": "Błąd połączenia"
+   },
+   "chrome_app_description": {
+      "message": "Bądź zawsze w kontakcie, używając nowej aplikacji Hangouts na komputery."
+   },
+   "chrome_app_learn_more_message": {
+      "message": "Więcej informacji"
+   },
+   "chrome_app_outdated_detail": {
+      "message": "Ta aplikacja jest nieaktualna. Jest dostępna nowsza wersja."
+   },
+   "chrome_app_outdated_title": {
+      "message": "Zaktualizuj aplikację Hangouts w Chrome"
+   },
+   "chrome_app_signin_button": {
+      "message": "Zaloguj się"
+   },
+   "chrome_app_welcome_message": {
+      "message": "Korzystaj z prywatnych i grupowych rozmów audio i wideo. Przesyłaj zdjęcia, pliki GIF, filmy itd."
+   },
+   "chrome_app_window_title": {
+      "message": "Google Hangouts – $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "chrome_ext_cannot_connect": {
+      "message": "Nie można połączyć się z Google. Sprawdź swoje połączenie internetowe."
+   },
+   "chrome_ext_description": {
+      "message": "W Google Hangouts wzbogacisz swoje kontakty ze znajomymi dzięki zdjęciom, emotikonom i bezpłatnym grupowym rozmowom wideo."
+   },
+   "chrome_ext_tip_connected_missed_messages": {
+      "message": "Stan: połączono\nPominięto wiadomości"
+   },
+   "chrome_hangouts_short_name": {
+      "message": "Google Hangouts"
+   },
+   "quasar_tip_connected": {
+      "message": "Stan: użytkownik połączony"
+   },
+   "quasar_tip_connecting": {
+      "message": "Stan: łączenie"
+   },
+   "quasar_tip_disconnected": {
+      "message": "Stan: użytkownik rozłączony"
+   },
+   "quasar_tip_not_load": {
+      "message": "Stan: błąd ładowania"
+   },
+   "quasar_tip_not_login": {
+      "message": "Stan: użytkownik niezalogowany"
+   },
+   "quasar_tip_reconnecting": {
+      "message": "Stan: ponowne łączenie"
+   }
+}

@@ -1,0 +1,70 @@
+{
+   "chrome_app_chrome_signin_message": {
+      "message": "開始するには Chrome にログインしてください。"
+   },
+   "chrome_app_connection_error_button": {
+      "message": "再試行"
+   },
+   "chrome_app_connection_error_detail": {
+      "message": "インターネットに接続していることを確認して、もう一度お試しください"
+   },
+   "chrome_app_connection_error_title": {
+      "message": "接続エラー"
+   },
+   "chrome_app_description": {
+      "message": "新しいハングアウトのデスクトップ アプリを使うと、いつでも友だちとコミュニケーションを取ることができます。"
+   },
+   "chrome_app_learn_more_message": {
+      "message": "詳細"
+   },
+   "chrome_app_outdated_detail": {
+      "message": "このアプリは最新ではありません。新しいバージョンを利用できます。"
+   },
+   "chrome_app_outdated_title": {
+      "message": "ハングアウト Chrome アプリの更新"
+   },
+   "chrome_app_signin_button": {
+      "message": "ログイン"
+   },
+   "chrome_app_welcome_message": {
+      "message": "1:1 でもグループでも、文字、写真、GIF、音声、動画などさまざまなスタイルで会話を楽しめます。"
+   },
+   "chrome_app_window_title": {
+      "message": "Google ハングアウト - $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "chrome_ext_cannot_connect": {
+      "message": "Google に接続できません。インターネット接続をご確認ください。"
+   },
+   "chrome_ext_description": {
+      "message": "ハングアウトは、写真や絵文字、グループでのビデオ通話を通じて会話を楽しめる無料のコミュニケーション ツールです。"
+   },
+   "chrome_ext_tip_connected_missed_messages": {
+      "message": "ステータス: 接続しました\n未読メッセージ"
+   },
+   "chrome_hangouts_short_name": {
+      "message": "Google ハングアウト"
+   },
+   "quasar_tip_connected": {
+      "message": "ステータス: 接続しました"
+   },
+   "quasar_tip_connecting": {
+      "message": "ステータス: 接続しています"
+   },
+   "quasar_tip_disconnected": {
+      "message": "ステータス: 切断しました"
+   },
+   "quasar_tip_not_load": {
+      "message": "ステータス: 読み込みエラー"
+   },
+   "quasar_tip_not_login": {
+      "message": "ステータス: ログインしていません"
+   },
+   "quasar_tip_reconnecting": {
+      "message": "ステータス: 再接続しています"
+   }
+}

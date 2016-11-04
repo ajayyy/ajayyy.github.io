@@ -1,0 +1,70 @@
+{
+   "chrome_app_chrome_signin_message": {
+      "message": "Logg på Chrome for å komme i gang."
+   },
+   "chrome_app_connection_error_button": {
+      "message": "Prøv på nytt"
+   },
+   "chrome_app_connection_error_detail": {
+      "message": "Sjekk at du er koblet til Internett, og prøv deretter på nytt"
+   },
+   "chrome_app_connection_error_title": {
+      "message": "Tilkoblingsfeil"
+   },
+   "chrome_app_description": {
+      "message": "Med den nye datamaskin-appen for Hangouts kan du holde kontakten hele tiden."
+   },
+   "chrome_app_learn_more_message": {
+      "message": "Finn ut mer"
+   },
+   "chrome_app_outdated_detail": {
+      "message": "Denne appen er utdatert. En ny versjon er tilgjengelig."
+   },
+   "chrome_app_outdated_title": {
+      "message": "Oppdater Chrome-appen for Hangouts"
+   },
+   "chrome_app_signin_button": {
+      "message": "Logg på"
+   },
+   "chrome_app_welcome_message": {
+      "message": "Ha samtaler privat eller gruppevis ved hjelp av tekst, bilder, GIF-filer, tale, video med mer."
+   },
+   "chrome_app_window_title": {
+      "message": "Google Hangouts – $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "chrome_ext_cannot_connect": {
+      "message": "Kan ikke koble til Google. Sjekk Internett-tilkoblingen din."
+   },
+   "chrome_ext_description": {
+      "message": "Med Hangouts kan du gjøre samtalene mer levende ved hjelp av bilder, emoji-tegn og til og med gruppevideosamtaler – og det koster..."
+   },
+   "chrome_ext_tip_connected_missed_messages": {
+      "message": "Status: Tilkoblet\nUbesvarte meldinger"
+   },
+   "chrome_hangouts_short_name": {
+      "message": "Google Hangouts"
+   },
+   "quasar_tip_connected": {
+      "message": "Status: Tilkoblet"
+   },
+   "quasar_tip_connecting": {
+      "message": "Status: Kobler til"
+   },
+   "quasar_tip_disconnected": {
+      "message": "Status: frakoblet"
+   },
+   "quasar_tip_not_load": {
+      "message": "Status: Innlastingsfeil"
+   },
+   "quasar_tip_not_login": {
+      "message": "Status: Ikke logget på"
+   },
+   "quasar_tip_reconnecting": {
+      "message": "Status: Kobler til på nytt"
+   }
+}

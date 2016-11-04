@@ -1,0 +1,70 @@
+{
+   "chrome_app_chrome_signin_message": {
+      "message": "登入 Chrome 即可開始使用。"
+   },
+   "chrome_app_connection_error_button": {
+      "message": "再試一次"
+   },
+   "chrome_app_connection_error_detail": {
+      "message": "請確認您已連上網際網路，然後再試一次。"
+   },
+   "chrome_app_connection_error_title": {
+      "message": "連線錯誤"
+   },
+   "chrome_app_description": {
+      "message": "透過全新的 Hangouts 電腦版應用程式，隨時與其他人保持聯繫。"
+   },
+   "chrome_app_learn_more_message": {
+      "message": "瞭解詳情"
+   },
+   "chrome_app_outdated_detail": {
+      "message": "這個應用程式的版本過舊，目前已有更新的版本可供下載。"
+   },
+   "chrome_app_outdated_title": {
+      "message": "請更新您的 Hangouts Chrome 應用程式"
+   },
+   "chrome_app_signin_button": {
+      "message": "登入"
+   },
+   "chrome_app_welcome_message": {
+      "message": "透過文字、相片、GIF、語音通話和視訊通話等多種功能，在私人和群組對話中盡情暢談。"
+   },
+   "chrome_app_window_title": {
+      "message": "Google Hangouts - $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "chrome_ext_cannot_connect": {
+      "message": "無法連線至 Google，請檢查您的網際網路連線。"
+   },
+   "chrome_ext_description": {
+      "message": "您可透過 Hangouts 在對話中傳送相片和表情符號，讓聊天內容更加生動活潑，而且還能免費進行群組視訊通話。"
+   },
+   "chrome_ext_tip_connected_missed_messages": {
+      "message": "狀態：已連線\n有未讀的訊息"
+   },
+   "chrome_hangouts_short_name": {
+      "message": "Google Hangouts"
+   },
+   "quasar_tip_connected": {
+      "message": "狀態：已連線"
+   },
+   "quasar_tip_connecting": {
+      "message": "狀態：連線中"
+   },
+   "quasar_tip_disconnected": {
+      "message": "狀態：連線中斷"
+   },
+   "quasar_tip_not_load": {
+      "message": "狀態：載入錯誤"
+   },
+   "quasar_tip_not_login": {
+      "message": "狀態：尚未登入"
+   },
+   "quasar_tip_reconnecting": {
+      "message": "狀態：重新連線中"
+   }
+}

@@ -1,0 +1,70 @@
+{
+   "chrome_app_chrome_signin_message": {
+      "message": "Para empezar, inicia sesión en Chrome."
+   },
+   "chrome_app_connection_error_button": {
+      "message": "Volver a intentarlo"
+   },
+   "chrome_app_connection_error_detail": {
+      "message": "Confirma que estás conectado a Internet y vuelve a intentarlo"
+   },
+   "chrome_app_connection_error_title": {
+      "message": "Error de conexión"
+   },
+   "chrome_app_description": {
+      "message": "Mantente siempre conectado con la nueva aplicación Hangouts para ordenador"
+   },
+   "chrome_app_learn_more_message": {
+      "message": "Más información"
+   },
+   "chrome_app_outdated_detail": {
+      "message": "Esta aplicación no está actualizada. Hay disponible una versión más reciente."
+   },
+   "chrome_app_outdated_title": {
+      "message": "Actualiza tu aplicación Hangouts de Chrome"
+   },
+   "chrome_app_signin_button": {
+      "message": "Iniciar sesión"
+   },
+   "chrome_app_welcome_message": {
+      "message": "Mantén conversaciones privadas y en grupo con texto, fotos, archivos GIF, voz, vídeo y mucho más."
+   },
+   "chrome_app_window_title": {
+      "message": "Google Hangouts - $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "chrome_ext_cannot_connect": {
+      "message": "No es posible conectarse a Google. Comprueba tu conexión a Internet."
+   },
+   "chrome_ext_description": {
+      "message": "Hangouts anima las conversaciones con fotos, emojis e incluso con videollamadas de grupo gratis."
+   },
+   "chrome_ext_tip_connected_missed_messages": {
+      "message": "Estado: conectado\nMensajes no vistos"
+   },
+   "chrome_hangouts_short_name": {
+      "message": "Hangouts de Google"
+   },
+   "quasar_tip_connected": {
+      "message": "Estado: conectado"
+   },
+   "quasar_tip_connecting": {
+      "message": "Estado: conectándose"
+   },
+   "quasar_tip_disconnected": {
+      "message": "Estado: desconectada"
+   },
+   "quasar_tip_not_load": {
+      "message": "Estado: error de carga"
+   },
+   "quasar_tip_not_login": {
+      "message": "Estado: no has accedido a la aplicación."
+   },
+   "quasar_tip_reconnecting": {
+      "message": "Estado: volviendo a conectarse"
+   }
+}

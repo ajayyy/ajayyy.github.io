@@ -1,0 +1,70 @@
+{
+   "chrome_app_chrome_signin_message": {
+      "message": "Alkuun pääset kirjautumalla Chromeen."
+   },
+   "chrome_app_connection_error_button": {
+      "message": "Yritä uudelleen"
+   },
+   "chrome_app_connection_error_detail": {
+      "message": "Varmista, että olet yhteydessä internetiin, ja yritä uudelleen"
+   },
+   "chrome_app_connection_error_title": {
+      "message": "Yhteysvirhe"
+   },
+   "chrome_app_description": {
+      "message": "Pysy aina yhteydessä Hangoutsin uuden työpöytäsovelluksen avulla."
+   },
+   "chrome_app_learn_more_message": {
+      "message": "Lisätietoja"
+   },
+   "chrome_app_outdated_detail": {
+      "message": "Tämä sovellus on vanhentunut. Saatavilla on uudempi versio."
+   },
+   "chrome_app_outdated_title": {
+      "message": "Päivitä Hangouts Chrome -sovellus"
+   },
+   "chrome_app_signin_button": {
+      "message": "Kirjaudu sisään"
+   },
+   "chrome_app_welcome_message": {
+      "message": "Osallistu yksityis- ja ryhmäkeskusteluihin, joissa on muun muassa tekstiä, valokuvia, gif-tiedostoja ja videoita."
+   },
+   "chrome_app_window_title": {
+      "message": "Google Hangouts – $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "chrome_ext_cannot_connect": {
+      "message": "Googleen ei saada yhteyttä. Tarkista internetyhteys."
+   },
+   "chrome_ext_description": {
+      "message": "Keskusteluja voi elävöittää valokuvilla, hymiöillä ja vaikkapa ilmaisilla ryhmävideopuheluilla."
+   },
+   "chrome_ext_tip_connected_missed_messages": {
+      "message": "Tila: yhdistetty\nHuomaamatta jääneet viestit"
+   },
+   "chrome_hangouts_short_name": {
+      "message": "Google Hangouts"
+   },
+   "quasar_tip_connected": {
+      "message": "Tila: Yhdistetty"
+   },
+   "quasar_tip_connecting": {
+      "message": "Tila: Yhdistetään"
+   },
+   "quasar_tip_disconnected": {
+      "message": "Tila: Yhteys katkaistu"
+   },
+   "quasar_tip_not_load": {
+      "message": "Tila: Lataamisvirhe"
+   },
+   "quasar_tip_not_login": {
+      "message": "Tila: Ei kirjautunut sisään"
+   },
+   "quasar_tip_reconnecting": {
+      "message": "Tila: Yhdistetään uudelleen"
+   }
+}

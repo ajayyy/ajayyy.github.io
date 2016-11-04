@@ -1,0 +1,70 @@
+{
+   "chrome_app_chrome_signin_message": {
+      "message": "היכנס ל-Chrome כדי להתחיל."
+   },
+   "chrome_app_connection_error_button": {
+      "message": "נסה שוב"
+   },
+   "chrome_app_connection_error_detail": {
+      "message": "ודא שאתה מחובר לאינטרנט ונסה שוב"
+   },
+   "chrome_app_connection_error_title": {
+      "message": "שגיאת התחברות"
+   },
+   "chrome_app_description": {
+      "message": "הישאר מחובר תמיד עם האפליקציה החדשה של Hangouts על שולחן העבודה."
+   },
+   "chrome_app_learn_more_message": {
+      "message": "למידע נוסף"
+   },
+   "chrome_app_outdated_detail": {
+      "message": "האפליקציה הזו מיושנת. זמינה גרסה חדשה יותר."
+   },
+   "chrome_app_outdated_title": {
+      "message": "עדכן את אפליקציית Hangouts Chrome שלך"
+   },
+   "chrome_app_signin_button": {
+      "message": "היכנס"
+   },
+   "chrome_app_welcome_message": {
+      "message": "תיהנה משיחות פרטיות וקבוצתיות עם טקסט, תמונות, תצלומים, קול, וידאו ועוד."
+   },
+   "chrome_app_window_title": {
+      "message": "Google Hangouts - ‏$1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "chrome_ext_cannot_connect": {
+      "message": "לא ניתן להתחבר ל-Google. בדוק את החיבור שלך לאינטרנט."
+   },
+   "chrome_ext_description": {
+      "message": "Hangouts מוסיף חיים לשיחות באמצעות תמונות, אמוג&#39;י ואפילו שיחות וידאו קבוצתיות ללא תשלום."
+   },
+   "chrome_ext_tip_connected_missed_messages": {
+      "message": "סטטוס: מחובר\nהודעות שלא נקראו"
+   },
+   "chrome_hangouts_short_name": {
+      "message": "Google Hangouts"
+   },
+   "quasar_tip_connected": {
+      "message": "סטטוס: מחובר"
+   },
+   "quasar_tip_connecting": {
+      "message": "סטטוס: מתחבר"
+   },
+   "quasar_tip_disconnected": {
+      "message": "סטטוס: מנותק"
+   },
+   "quasar_tip_not_load": {
+      "message": "סטטוס: שגיאה בטעינה"
+   },
+   "quasar_tip_not_login": {
+      "message": "סטטוס: לא מחובר"
+   },
+   "quasar_tip_reconnecting": {
+      "message": "סטטוס: מתחבר מחדש"
+   }
+}

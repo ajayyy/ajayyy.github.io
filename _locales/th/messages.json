@@ -1,0 +1,70 @@
+{
+   "chrome_app_chrome_signin_message": {
+      "message": "ลงชื่อเข้าใช้ Chrome เพื่อเริ่มต้นใช้งาน"
+   },
+   "chrome_app_connection_error_button": {
+      "message": "ลองอีกครั้ง"
+   },
+   "chrome_app_connection_error_detail": {
+      "message": "ตรวจสอบว่าคุณเชื่อมต่อกับอินเทอร์เน็ตแล้วลองอีกครั้ง"
+   },
+   "chrome_app_connection_error_title": {
+      "message": "การเชื่อมต่อผิดพลาด"
+   },
+   "chrome_app_description": {
+      "message": "ไม่พลาดทุกการติดต่อด้วยแอปแฮงเอาท์ใหม่บนเดสก์ท็อป"
+   },
+   "chrome_app_learn_more_message": {
+      "message": "เรียนรู้เพิ่มเติม"
+   },
+   "chrome_app_outdated_detail": {
+      "message": "แอปนี้เก่าเกินไปแล้ว มีเวอร์ชันใหม่กว่าพร้อมใช้งาน"
+   },
+   "chrome_app_outdated_title": {
+      "message": "อัปเดตแอปแฮงเอาท์ใน Chrome"
+   },
+   "chrome_app_signin_button": {
+      "message": "ลงชื่อเข้าใช้"
+   },
+   "chrome_app_welcome_message": {
+      "message": "เพลิดเพลินกับการสนทนาส่วนตัวและการสนทนาเป็นกลุ่มที่มีข้อความ, รูปภาพ, ภาพ GIF, เสียง, วิดีโอ และอื่นๆ อีกมากมาย"
+   },
+   "chrome_app_window_title": {
+      "message": "Google แฮงเอาท์ - $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "chrome_ext_cannot_connect": {
+      "message": "ไม่สามารถเชื่อมต่อกับ Google โปรดตรวจสอบการเชื่อมต่ออินเทอร์เน็ต"
+   },
+   "chrome_ext_description": {
+      "message": "แฮงเอาท์ทำให้การสนทนามีชีวิตชีวามากขึ้นด้วยรูปภาพ อีโมจิ พร้อมทั้งยังมีแฮงเอาท์วิดีโอกับกลุ่มเพื่อนได้ฟรี"
+   },
+   "chrome_ext_tip_connected_missed_messages": {
+      "message": "สถานะ: เชื่อมต่อ\nมีข้อความที่ไม่ได้รับ"
+   },
+   "chrome_hangouts_short_name": {
+      "message": "Google แฮงเอาท์"
+   },
+   "quasar_tip_connected": {
+      "message": "สถานะ: เชื่อมต่อ"
+   },
+   "quasar_tip_connecting": {
+      "message": "สถานะ: กำลังเชื่อมต่อ"
+   },
+   "quasar_tip_disconnected": {
+      "message": "สถานะ: ตัดการเชื่อมต่อแล้ว"
+   },
+   "quasar_tip_not_load": {
+      "message": "สถานะ: เกิดข้อผิดพลาดในการโหลด"
+   },
+   "quasar_tip_not_login": {
+      "message": "สถานะ: ไม่ได้เข้าสู่ระบบ"
+   },
+   "quasar_tip_reconnecting": {
+      "message": "สถานะ: เชื่อมต่อใหม่"
+   }
+}

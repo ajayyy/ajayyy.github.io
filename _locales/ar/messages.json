@@ -1,0 +1,70 @@
+{
+   "chrome_app_chrome_signin_message": {
+      "message": "تسجيل الدخول إلى Chrome للبدء."
+   },
+   "chrome_app_connection_error_button": {
+      "message": "إعادة المحاولة"
+   },
+   "chrome_app_connection_error_detail": {
+      "message": "تأكد من اتصالك بالإنترنت وحاول مرة أخرى"
+   },
+   "chrome_app_connection_error_title": {
+      "message": "خطأ في الاتصال"
+   },
+   "chrome_app_description": {
+      "message": "البقاء دائمًا على اتصال مع تطبيق سطح المكتب الجديد لخدمة Hangouts."
+   },
+   "chrome_app_learn_more_message": {
+      "message": "مزيد من المعلومات"
+   },
+   "chrome_app_outdated_detail": {
+      "message": "هذا التطبيق قديم. هناك إصدار أحدث متوفر."
+   },
+   "chrome_app_outdated_title": {
+      "message": "تحديث تطبيقك Hangouts Chrome"
+   },
+   "chrome_app_signin_button": {
+      "message": "تسجيل الدخول"
+   },
+   "chrome_app_welcome_message": {
+      "message": "تتمتع بالمحادثات الخاصة والجماعية مع النصوص والصور الفوتوغرافية وصور gif والصوت والفيديو وأكثر من ذلك."
+   },
+   "chrome_app_window_title": {
+      "message": "Google Hangouts‏ - $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "chrome_ext_cannot_connect": {
+      "message": "تعذر الاتصال بـ Google. الرجاء التحقق من اتصالك بالإنترنت."
+   },
+   "chrome_ext_description": {
+      "message": "تضفي Hangouts مظاهر الحيوية على الدردشات عن طريق استخدام الصور والرموز التعبيرية بل وحتى مكالمات الفيديو الجماعية، وكل ذلك مجانًا."
+   },
+   "chrome_ext_tip_connected_missed_messages": {
+      "message": "الحالة: متصل\nالرسائل الفائتة"
+   },
+   "chrome_hangouts_short_name": {
+      "message": "Hangouts من Google"
+   },
+   "quasar_tip_connected": {
+      "message": "الحالة: متصل"
+   },
+   "quasar_tip_connecting": {
+      "message": "الحالة: جارٍ الاتصال"
+   },
+   "quasar_tip_disconnected": {
+      "message": "الحالة: غير متصل"
+   },
+   "quasar_tip_not_load": {
+      "message": "الحالة: خطأ في التحميل"
+   },
+   "quasar_tip_not_login": {
+      "message": "الحالة: لم يتم تسجيل الدخول"
+   },
+   "quasar_tip_reconnecting": {
+      "message": "الحالة: إعادة الاتصال"
+   }
+}

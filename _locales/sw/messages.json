@@ -1,0 +1,70 @@
+{
+   "chrome_app_chrome_signin_message": {
+      "message": "Ingia katika Chrome ili uanze."
+   },
+   "chrome_app_connection_error_button": {
+      "message": "Jaribu tena"
+   },
+   "chrome_app_connection_error_detail": {
+      "message": "Hakikisha kuwa umeunganishwa kwenye Intaneti na ujaribu tena"
+   },
+   "chrome_app_connection_error_title": {
+      "message": "Hitilafu katika Muunganisho"
+   },
+   "chrome_app_description": {
+      "message": "Unganishwa wakati wote kwa kutumia programu mpya ya Hangouts kwenye eneo-kazi."
+   },
+   "chrome_app_learn_more_message": {
+      "message": "Pata maelezo zaidi"
+   },
+   "chrome_app_outdated_detail": {
+      "message": "Programu hii haitumiki sasa. Toleo jipya linapatikana."
+   },
+   "chrome_app_outdated_title": {
+      "message": "Sasisha programu yako ya Hangouts ya Chrome"
+   },
+   "chrome_app_signin_button": {
+      "message": "Ingia katika akaunti"
+   },
+   "chrome_app_welcome_message": {
+      "message": "Furahia mazungumzo ya faragha na ya kundi ukitumia maandishi, picha, gifs, sauti, video na zaidi."
+   },
+   "chrome_app_window_title": {
+      "message": "Google Hangouts - $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "chrome_ext_cannot_connect": {
+      "message": "Haiwezi kujiunga kwenye Google. Tafadhali angalia muunganisho wa mtandao wako."
+   },
+   "chrome_ext_description": {
+      "message": "Hangouts husisimua  mazungumzo kupitia picha, emoji, na hata Hangout za video  za kundi bila malipo."
+   },
+   "chrome_ext_tip_connected_missed_messages": {
+      "message": "Hali: Imeunganishwa\nTaarifa zisizopokewa"
+   },
+   "chrome_hangouts_short_name": {
+      "message": "Hangouts za Google"
+   },
+   "quasar_tip_connected": {
+      "message": "Hali: Imeunganishwa"
+   },
+   "quasar_tip_connecting": {
+      "message": "Hali: Inaunganisha"
+   },
+   "quasar_tip_disconnected": {
+      "message": "Hali: Imetenganishwa"
+   },
+   "quasar_tip_not_load": {
+      "message": "Hali: Inapakia hitilafu"
+   },
+   "quasar_tip_not_login": {
+      "message": "Hali: Hujaingia"
+   },
+   "quasar_tip_reconnecting": {
+      "message": "Hali: Inaunganisha upya"
+   }
+}

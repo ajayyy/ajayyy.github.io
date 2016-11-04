@@ -1,0 +1,70 @@
+{
+   "chrome_app_chrome_signin_message": {
+      "message": "Accedi a Chrome per iniziare."
+   },
+   "chrome_app_connection_error_button": {
+      "message": "Riprova"
+   },
+   "chrome_app_connection_error_detail": {
+      "message": "Assicurati di essere connesso a Internet e riprova"
+   },
+   "chrome_app_connection_error_title": {
+      "message": "Errore di connessione"
+   },
+   "chrome_app_description": {
+      "message": "Rimani sempre connesso con la nuova app desktop di Hangouts."
+   },
+   "chrome_app_learn_more_message": {
+      "message": "Ulteriori informazioni"
+   },
+   "chrome_app_outdated_detail": {
+      "message": "Questa app è datata. È disponibile una versione più recente."
+   },
+   "chrome_app_outdated_title": {
+      "message": "Aggiorna l'app Hangouts di Chrome"
+   },
+   "chrome_app_signin_button": {
+      "message": "Accedi"
+   },
+   "chrome_app_welcome_message": {
+      "message": "Chatta, invia foto e gif animate, telefona e videochiama in privato e in gruppo."
+   },
+   "chrome_app_window_title": {
+      "message": "Google Hangouts - $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "chrome_ext_cannot_connect": {
+      "message": "Impossibile connettersi a Google. Controlla la tua connessione a Internet."
+   },
+   "chrome_ext_description": {
+      "message": "Con Hangouts le conversazioni prendono vita grazie a foto, emoji e videochiamate di gruppo gratuite."
+   },
+   "chrome_ext_tip_connected_missed_messages": {
+      "message": "Stato: connesso\nMessaggi persi"
+   },
+   "chrome_hangouts_short_name": {
+      "message": "Google Hangouts"
+   },
+   "quasar_tip_connected": {
+      "message": "Stato: connesso"
+   },
+   "quasar_tip_connecting": {
+      "message": "Stato: in connessione"
+   },
+   "quasar_tip_disconnected": {
+      "message": "Stato: disconnesso"
+   },
+   "quasar_tip_not_load": {
+      "message": "Stato: errore durante il caricamento"
+   },
+   "quasar_tip_not_login": {
+      "message": "Stato: non collegato"
+   },
+   "quasar_tip_reconnecting": {
+      "message": "Stato: riconnessione in corso"
+   }
+}

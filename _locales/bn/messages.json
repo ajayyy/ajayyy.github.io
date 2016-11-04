@@ -1,0 +1,70 @@
+{
+   "chrome_app_chrome_signin_message": {
+      "message": "শুরু করতে Chrome এ প্রবেশ করুন করুন৷"
+   },
+   "chrome_app_connection_error_button": {
+      "message": "আবার চেষ্টা করুন"
+   },
+   "chrome_app_connection_error_detail": {
+      "message": "আপনি ইন্টারনেটের সাথে সংযুক্ত রয়েছেন তা নিশ্চিত করুন এবং আবার চেষ্টা করুন"
+   },
+   "chrome_app_connection_error_title": {
+      "message": "সংযোগ ত্রুটি"
+   },
+   "chrome_app_description": {
+      "message": "Hangouts -এর জন্য নতুন ডেস্কটপ অ্যাপের সঙ্গে সর্বদা জুড়ে থাকুন।"
+   },
+   "chrome_app_learn_more_message": {
+      "message": "আরো জানুন"
+   },
+   "chrome_app_outdated_detail": {
+      "message": "এই অ্যাপ্লিকেশানটি পুরোনো৷ একটি নতুন সংস্করণ উপলব্ধ রয়েছে৷"
+   },
+   "chrome_app_outdated_title": {
+      "message": "আপনার Hangouts Chrome অ্যাপ্লিকেশান আপডেট করুন"
+   },
+   "chrome_app_signin_button": {
+      "message": "প্রবেশ করুন"
+   },
+   "chrome_app_welcome_message": {
+      "message": "লিখে, gif, ফটো, ভয়েস বা ভিডিও দিয়ে এবং আরো অনেক কিছুর সাথে ব্যক্তিগত বা গোষ্ঠী কথোপকথনগুলি উপভোগ করুন৷"
+   },
+   "chrome_app_window_title": {
+      "message": "Google Hangouts - $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "chrome_ext_cannot_connect": {
+      "message": "Google এ সংযুক্ত করতে পারেনি৷ দয়া করে আপনার ইন্টারনেটের সংযোগ পরিক্ষা করুন৷"
+   },
+   "chrome_ext_description": {
+      "message": "Hangouts বিনামূল্যে ফটো, ইমোজি, এবং এমনকি গোষ্ঠী ভিডিও কলগুলির মাধ্যমে কথোপকথনকে জীবন্ত করে তোলে৷"
+   },
+   "chrome_ext_tip_connected_missed_messages": {
+      "message": "স্থিতি: সংযুক্ত\nমিস করা বার্তাগুলি"
+   },
+   "chrome_hangouts_short_name": {
+      "message": "Google Hangout"
+   },
+   "quasar_tip_connected": {
+      "message": "স্থিতি: সংযুক্ত"
+   },
+   "quasar_tip_connecting": {
+      "message": "স্থিতি:সংযোগ করা হচ্ছে"
+   },
+   "quasar_tip_disconnected": {
+      "message": "স্থিতি:সংযোগ বিছিন্ন হয়েছে"
+   },
+   "quasar_tip_not_load": {
+      "message": "স্থিতি:লোডিং ত্রুটি"
+   },
+   "quasar_tip_not_login": {
+      "message": "স্থিতি:লগ ইন করে নেই"
+   },
+   "quasar_tip_reconnecting": {
+      "message": "স্থিতি:আবার সংযুক্ত হচ্ছে"
+   }
+}
