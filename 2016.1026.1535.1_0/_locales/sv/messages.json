@@ -1,0 +1,70 @@
+{
+   "chrome_app_chrome_signin_message": {
+      "message": "Logga in på Chrome för att sätta igång."
+   },
+   "chrome_app_connection_error_button": {
+      "message": "Försök igen"
+   },
+   "chrome_app_connection_error_detail": {
+      "message": "Kontrollera att du är ansluten till internet och försök igen"
+   },
+   "chrome_app_connection_error_title": {
+      "message": "Anslutningsfel"
+   },
+   "chrome_app_description": {
+      "message": "Håll kontakten med den nya Hangouts-appen för dator."
+   },
+   "chrome_app_learn_more_message": {
+      "message": "Läs mer"
+   },
+   "chrome_app_outdated_detail": {
+      "message": "Denna app är för gammal. En nyare version finns tillgänglig."
+   },
+   "chrome_app_outdated_title": {
+      "message": "Uppdatera din Hangouts-applikation för Chrome"
+   },
+   "chrome_app_signin_button": {
+      "message": "Logga in"
+   },
+   "chrome_app_welcome_message": {
+      "message": "Ta del av privata konversationer och gruppkonversationer med text, bilder, bilder i gif-format, röst, video och mer."
+   },
+   "chrome_app_window_title": {
+      "message": "Google Hangouts – $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "chrome_ext_cannot_connect": {
+      "message": "Det går inte att ansluta till Google. Kontrollera internetanslutningen."
+   },
+   "chrome_ext_description": {
+      "message": "I Hangouts väcks konversationerna till liv med foton, emoji och gruppvideosamtal kostnadsfritt."
+   },
+   "chrome_ext_tip_connected_missed_messages": {
+      "message": "Status: Ansluten\nMissade meddelanden"
+   },
+   "chrome_hangouts_short_name": {
+      "message": "Google Hangouts"
+   },
+   "quasar_tip_connected": {
+      "message": "Status: Ansluten"
+   },
+   "quasar_tip_connecting": {
+      "message": "Status: Ansluter"
+   },
+   "quasar_tip_disconnected": {
+      "message": "Status: Frånkopplad"
+   },
+   "quasar_tip_not_load": {
+      "message": "Status: Fel vid inläsning"
+   },
+   "quasar_tip_not_login": {
+      "message": "Status: Inte inloggad"
+   },
+   "quasar_tip_reconnecting": {
+      "message": "Status: Återansluter"
+   }
+}

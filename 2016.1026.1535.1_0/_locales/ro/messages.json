@@ -1,0 +1,70 @@
+{
+   "chrome_app_chrome_signin_message": {
+      "message": "Conectează-te la Chrome pentru a începe."
+   },
+   "chrome_app_connection_error_button": {
+      "message": "Încercați din nou"
+   },
+   "chrome_app_connection_error_detail": {
+      "message": "Asigurați-vă că sunteți conectat(ă) la internet și încercați din nou."
+   },
+   "chrome_app_connection_error_title": {
+      "message": "Eroare de conexiune"
+   },
+   "chrome_app_description": {
+      "message": "Fii în permanență conectat(ă) cu noua aplicație Hangouts pentru desktop."
+   },
+   "chrome_app_learn_more_message": {
+      "message": "Aflați mai multe"
+   },
+   "chrome_app_outdated_detail": {
+      "message": "Aplicația este învechită. Este disponibilă o versiune mai recentă."
+   },
+   "chrome_app_outdated_title": {
+      "message": "Actualizează aplicația Hangouts Chrome"
+   },
+   "chrome_app_signin_button": {
+      "message": "Conectează-te"
+   },
+   "chrome_app_welcome_message": {
+      "message": "Bucură-te de conversații private și de grup cu text, fotografii, animații GIF, apeluri vocale, apeluri video și multe altele."
+   },
+   "chrome_app_window_title": {
+      "message": "Google Hangouts - $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "chrome_ext_cannot_connect": {
+      "message": "Conectarea la Google este imposibilă. Verifică conexiunea la internet."
+   },
+   "chrome_ext_description": {
+      "message": "Hangouts animă conversațiile cu fotografii, emoticonuri și chiar cu apeluri video gratuite."
+   },
+   "chrome_ext_tip_connected_missed_messages": {
+      "message": "Stare: conectată\nMesaje necitite"
+   },
+   "chrome_hangouts_short_name": {
+      "message": "Hangouts Google"
+   },
+   "quasar_tip_connected": {
+      "message": "Stare: conectat(ă)"
+   },
+   "quasar_tip_connecting": {
+      "message": "Stare: se conectează"
+   },
+   "quasar_tip_disconnected": {
+      "message": "Stare: deconectat(ă)"
+   },
+   "quasar_tip_not_load": {
+      "message": "Stare: eroare la încărcare"
+   },
+   "quasar_tip_not_login": {
+      "message": "Stare: neconectat(ă)"
+   },
+   "quasar_tip_reconnecting": {
+      "message": "Stare: se reconectează"
+   }
+}

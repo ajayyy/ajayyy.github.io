@@ -1,0 +1,70 @@
+{
+   "chrome_app_chrome_signin_message": {
+      "message": "Prisijunkite prie „Chrome“, kad galėtumėte pradėti."
+   },
+   "chrome_app_connection_error_button": {
+      "message": "Bandyti dar kartą"
+   },
+   "chrome_app_connection_error_detail": {
+      "message": "Įsitikinkite, kad esate prisijungę prie interneto, ir bandykite dar kartą"
+   },
+   "chrome_app_connection_error_title": {
+      "message": "Ryšio klaida"
+   },
+   "chrome_app_description": {
+      "message": "Būkite visada prisijungę naudodami naują staliniams kompiuteriams skirtą „Hangout“ programą."
+   },
+   "chrome_app_learn_more_message": {
+      "message": "Sužinokite daugiau"
+   },
+   "chrome_app_outdated_detail": {
+      "message": "Ši programa paseno. Prieinama naujesnė jos versija."
+   },
+   "chrome_app_outdated_title": {
+      "message": "Atnaujinkite „Chrome“ skirtą „Hangout“ programą"
+   },
+   "chrome_app_signin_button": {
+      "message": "Prisijunkite"
+   },
+   "chrome_app_welcome_message": {
+      "message": "Mėgaukitės privačiais ir grupiniais pokalbiais naudodami tekstą, nuotraukas, GIF failus, balsą, vaizdo įrašus ir daugiau."
+   },
+   "chrome_app_window_title": {
+      "message": "„Google Hangout“ – $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "chrome_ext_cannot_connect": {
+      "message": "Neįmanoma prisijungti prie „Google“. Patikrinkite interneto ryšį."
+   },
+   "chrome_ext_description": {
+      "message": "Per „Hangout“ pokalbiai atgyja su nuotraukomis, jaustukais ir net nemokamais grupiniais vaizdo skambučiais."
+   },
+   "chrome_ext_tip_connected_missed_messages": {
+      "message": "Būsena: prisijungta\nPraleista pranešimų"
+   },
+   "chrome_hangouts_short_name": {
+      "message": "Google Hangout"
+   },
+   "quasar_tip_connected": {
+      "message": "Būsena: prisijungta"
+   },
+   "quasar_tip_connecting": {
+      "message": "Būsena: jungiamasi"
+   },
+   "quasar_tip_disconnected": {
+      "message": "Būsena: atsijungta"
+   },
+   "quasar_tip_not_load": {
+      "message": "Būsena: įkėlimo klaida"
+   },
+   "quasar_tip_not_login": {
+      "message": "Būsena: neprisijungta"
+   },
+   "quasar_tip_reconnecting": {
+      "message": "Būsena: jungiamasi dar kartą"
+   }
+}

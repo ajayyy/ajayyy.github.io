@@ -1,0 +1,70 @@
+{
+   "chrome_app_chrome_signin_message": {
+      "message": "Melde dich in Chrome an, um loszulegen."
+   },
+   "chrome_app_connection_error_button": {
+      "message": "Neu laden"
+   },
+   "chrome_app_connection_error_detail": {
+      "message": "Stelle sicher, dass du mit dem Internet verbunden bist, und versuch es noch einmal."
+   },
+   "chrome_app_connection_error_title": {
+      "message": "Verbindungsfehler"
+   },
+   "chrome_app_description": {
+      "message": "Bleib mit der neuen Desktop-App für Hangouts immer in Verbindung."
+   },
+   "chrome_app_learn_more_message": {
+      "message": "Weitere Informationen"
+   },
+   "chrome_app_outdated_detail": {
+      "message": "Diese App ist nicht mehr aktuell. Es ist eine neuere Version verfügbar."
+   },
+   "chrome_app_outdated_title": {
+      "message": "Hangouts App für Chrome aktualisieren"
+   },
+   "chrome_app_signin_button": {
+      "message": "Anmelden"
+   },
+   "chrome_app_welcome_message": {
+      "message": "Führe private und Gruppenunterhaltungen mit Text, Fotos, Gifs, Sprach- und Videonachrichten und vielem mehr."
+   },
+   "chrome_app_window_title": {
+      "message": "Google Hangouts – $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "chrome_ext_cannot_connect": {
+      "message": "Verbindung zu Google konnte nicht hergestellt werden. Überprüf deine Internetverbindung."
+   },
+   "chrome_ext_description": {
+      "message": "Hangouts macht deine Unterhaltungen noch lebendiger – mit Fotos, Emojis und kostenlosen Gruppen-Videoanrufen."
+   },
+   "chrome_ext_tip_connected_missed_messages": {
+      "message": "Status: verbunden\nVerpasste Nachrichten"
+   },
+   "chrome_hangouts_short_name": {
+      "message": "Google Hangouts"
+   },
+   "quasar_tip_connected": {
+      "message": "Status: Verbindung hergestellt"
+   },
+   "quasar_tip_connecting": {
+      "message": "Status: Verbindung wird hergestellt"
+   },
+   "quasar_tip_disconnected": {
+      "message": "Status: Verbindung getrennt"
+   },
+   "quasar_tip_not_load": {
+      "message": "Status: Ladefehler"
+   },
+   "quasar_tip_not_login": {
+      "message": "Status: nicht angemeldet"
+   },
+   "quasar_tip_reconnecting": {
+      "message": "Status: Verbindung wird erneut hergestellt"
+   }
+}

@@ -1,0 +1,70 @@
+{
+   "chrome_app_chrome_signin_message": {
+      "message": "Συνδεθείτε στο Chrome για να ξεκινήσετε."
+   },
+   "chrome_app_connection_error_button": {
+      "message": "Δοκιμάστε ξανά"
+   },
+   "chrome_app_connection_error_detail": {
+      "message": "Βεβαιωθείτε ότι είστε συνδεδεμένοι στο Διαδίκτυο και δοκιμάστε ξανά"
+   },
+   "chrome_app_connection_error_title": {
+      "message": "Σφάλμα σύνδεσης"
+   },
+   "chrome_app_description": {
+      "message": "Μείνετε πάντα σε επαφή, με τη νέα εφαρμογή Hangouts για υπολογιστές."
+   },
+   "chrome_app_learn_more_message": {
+      "message": "Μάθετε περισσότερα"
+   },
+   "chrome_app_outdated_detail": {
+      "message": "Η εφαρμογή αυτή δεν είναι ενημερωμένη. Υπάρχει διαθέσιμη νεότερη έκδοση."
+   },
+   "chrome_app_outdated_title": {
+      "message": "Ενημερώστε την εφαρμογή Hangouts του Chrome"
+   },
+   "chrome_app_signin_button": {
+      "message": "Σύνδεση"
+   },
+   "chrome_app_welcome_message": {
+      "message": "Απολαύστε ιδιωτικές και ομαδικές συνομιλίες με κείμενο, φωτογραφίες, αρχεία gif, φωνής, βίντεο και πολλά άλλα."
+   },
+   "chrome_app_window_title": {
+      "message": "Google Hangouts - $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "chrome_ext_cannot_connect": {
+      "message": "Δεν ήταν δυνατή η σύνδεση στο Google. Ελέγξτε τη σύνδεσή σας στο δίκτυο."
+   },
+   "chrome_ext_description": {
+      "message": "Τα Hangouts ζωντανεύουν τις συνομιλίες με φωτογραφίες, emoji, ακόμα και ομαδικές κλήσεις βίντεο, δωρεάν."
+   },
+   "chrome_ext_tip_connected_missed_messages": {
+      "message": "Κατάσταση: Συνδεδεμένη\nΧάθηκαν μηνύματα"
+   },
+   "chrome_hangouts_short_name": {
+      "message": "Google Hangouts"
+   },
+   "quasar_tip_connected": {
+      "message": "Κατάσταση: Συνδεδεμένη"
+   },
+   "quasar_tip_connecting": {
+      "message": "Κατάσταση: Σύνδεση"
+   },
+   "quasar_tip_disconnected": {
+      "message": "Κατάσταση: Αποσυνδέθηκε"
+   },
+   "quasar_tip_not_load": {
+      "message": "Κατάσταση: Σφάλμα φόρτωσης"
+   },
+   "quasar_tip_not_login": {
+      "message": "Κατάσταση: Δεν έχει συνδεθεί"
+   },
+   "quasar_tip_reconnecting": {
+      "message": "Κατάσταση: Επανασύνδεση"
+   }
+}

@@ -1,0 +1,70 @@
+{
+   "chrome_app_chrome_signin_message": {
+      "message": "Začněte přihlášením do Chromu."
+   },
+   "chrome_app_connection_error_button": {
+      "message": "Zkusit znovu"
+   },
+   "chrome_app_connection_error_detail": {
+      "message": "Zkontrolujte, že jste připojení k internetu, a zkuste to znovu."
+   },
+   "chrome_app_connection_error_title": {
+      "message": "Chyba připojení"
+   },
+   "chrome_app_description": {
+      "message": "S novou desktopovou aplikací Hangouts můžete být vždy ve spojení s ostatními."
+   },
+   "chrome_app_learn_more_message": {
+      "message": "Další informace"
+   },
+   "chrome_app_outdated_detail": {
+      "message": "Tato aplikace už není aktuální a k dispozici je novější verze."
+   },
+   "chrome_app_outdated_title": {
+      "message": "Aktualizujte aplikaci Hangouts pro Chrome"
+   },
+   "chrome_app_signin_button": {
+      "message": "Přihlásit se"
+   },
+   "chrome_app_welcome_message": {
+      "message": "Užívejte si soukromé i skupinové konverzace, ve kterých můžete svým přátelům posílat zprávy, fotky nebo obrázky GIF a pořádat s nimi videohovory a hlasové hovory."
+   },
+   "chrome_app_window_title": {
+      "message": "Hangouts Google – $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "chrome_ext_cannot_connect": {
+      "message": "Nepodařilo se spojit s Googlem. Zkontrolujte připojení k internetu."
+   },
+   "chrome_ext_description": {
+      "message": "S Hangouts můžete konverzace oživit pomocí fotek, ikon emodži a skupinových videohovorů – a to zcela zdarma."
+   },
+   "chrome_ext_tip_connected_missed_messages": {
+      "message": "Stav: Připojeno\nZmeškané zprávy"
+   },
+   "chrome_hangouts_short_name": {
+      "message": "Hangouts Google"
+   },
+   "quasar_tip_connected": {
+      "message": "Stav: Připojeno"
+   },
+   "quasar_tip_connecting": {
+      "message": "Status: Připojování"
+   },
+   "quasar_tip_disconnected": {
+      "message": "Stav: Odpojeno"
+   },
+   "quasar_tip_not_load": {
+      "message": "Stav: Chyba při načítání"
+   },
+   "quasar_tip_not_login": {
+      "message": "Stav: Nepřihlášeno"
+   },
+   "quasar_tip_reconnecting": {
+      "message": "Stav: Opětovné připojování"
+   }
+}

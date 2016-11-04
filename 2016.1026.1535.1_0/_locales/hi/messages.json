@@ -1,0 +1,70 @@
+{
+   "chrome_app_chrome_signin_message": {
+      "message": "आरंभ करने के लिए Chrome में प्रवेश करें."
+   },
+   "chrome_app_connection_error_button": {
+      "message": "फिर से प्रयास करें"
+   },
+   "chrome_app_connection_error_detail": {
+      "message": "सुनिश्चित करें कि आप इंटरनेट से कनेक्ट हैं और फिर से प्रयास करें."
+   },
+   "chrome_app_connection_error_title": {
+      "message": "कनेक्शन त्रुटि"
+   },
+   "chrome_app_description": {
+      "message": "Hangouts के लिए नए डेस्कटॉप ऐप्लिकेशन से हमेशा कनेक्ट रहें."
+   },
+   "chrome_app_learn_more_message": {
+      "message": "और जानें"
+   },
+   "chrome_app_outdated_detail": {
+      "message": "यह ऐप्लिकेशन पुराना है. एक नया वर्शन उपलब्ध है."
+   },
+   "chrome_app_outdated_title": {
+      "message": "अपना Hangouts Chrome ऐप्लिकेशन अपडेट करें"
+   },
+   "chrome_app_signin_button": {
+      "message": "प्रवेश करें"
+   },
+   "chrome_app_welcome_message": {
+      "message": "लेख, फ़ोटो, gif, वॉइस, वीडियो, आदि के साथ निजी और सामूहिक वार्तालाप का आनंद लें."
+   },
+   "chrome_app_window_title": {
+      "message": "Google Hangouts - $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "chrome_ext_cannot_connect": {
+      "message": "Google से कनेक्ट होने में असमर्थ. कृपया अपने इंटरनेट कनेक्शन की जांच करें."
+   },
+   "chrome_ext_description": {
+      "message": "Hangouts, फ़ोटो, इमोजी और यहां तक कि निःशुल्‍क समूह वीडियो कॉल के साथ वार्तालाप को जीवंत बनाते हैं."
+   },
+   "chrome_ext_tip_connected_missed_messages": {
+      "message": "स्थिति: कनेक्ट है\nछूटे संदेश"
+   },
+   "chrome_hangouts_short_name": {
+      "message": "Google Hangouts"
+   },
+   "quasar_tip_connected": {
+      "message": "स्थिति: कनेक्ट हो गया"
+   },
+   "quasar_tip_connecting": {
+      "message": "स्थिति: कनेक्ट हो रहा है"
+   },
+   "quasar_tip_disconnected": {
+      "message": "स्थिति: डिस्कनेक्ट हो गया"
+   },
+   "quasar_tip_not_load": {
+      "message": "स्थिति: त्रुटि लोड कर रहा है"
+   },
+   "quasar_tip_not_login": {
+      "message": "स्थिति: प्रवेश नहीं किया गया है"
+   },
+   "quasar_tip_reconnecting": {
+      "message": "स्थिति: फिर से कनेक्ट हो रहा है"
+   }
+}
