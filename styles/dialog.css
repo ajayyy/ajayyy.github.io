@@ -1,0 +1,16 @@
+/**
+ * CSS rules for all windows aside from the main window.
+ */
+html,
+body,
+webview,
+iframe {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  overflow: hidden;
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+}
