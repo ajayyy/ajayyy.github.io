@@ -1,0 +1,123 @@
+
+#game_board {
+	width: 700px;
+	height: 700px;
+	background-color: #ffd09a;
+	border: solid black 1px;
+	padding: 10px;
+}
+
+.player {
+	background-color: #bb6200;
+	width: 100%;
+	border: solid black 1px;
+
+	font-family: consolas;
+	font-size: 8pt;
+}
+
+.player_container {
+	background-color: #bb6200;
+	border: solid black 1px;
+
+	padding: 25px;
+	font-family: consolas;
+	font-size: 8pt;
+}
+
+.player_hand {
+	width: 100%;
+	height: 100px;
+	background-color: #333333;
+	border: solid black 1px;
+	margin-bottom: 25px;
+}
+
+.player_carry {
+	width: 100%;
+	height: 100px;
+	background-color: #ffe0bc;
+	border: solid black 1px;
+}
+
+.card {
+	width: 65px;
+	height: 100px;
+	border-radius: 8px;
+
+	display: inline-block;
+	background-color: #FFCCAA;
+	background-size: 100%, 100%;
+}
+
+.highlighted_target:hover {
+	cursor: pointer;
+}
+
+.highlighted_target {
+	border: solid red 1px !important;
+}
+
+.highlighted_selected {
+	border: solid green 1px !important;
+}
+
+.action {
+	width: 20px;
+	height: 20px;
+	opacity: 0.5;
+}
+
+.action:hover {
+	opacity: 0.9;
+	cursor: pointer;
+}
+
+.action_FIGHT {
+	background-image: url(res/icons/combat.png);
+	background-size: 100%, 100%;
+}
+
+.action_CARRY {
+	background-image: url(res/icons/carry.png);
+	background-size: 100%, 100%;
+}
+
+.action_PLAY {
+	background-image: url(res/icons/play.png);
+	background-size: 100%, 100%;
+}
+
+.template {
+	display: none !important;
+}
+
+.player_name {
+	font-weight: bold;
+}
+
+#console {
+	border: solid black 1px;
+	background-color: #999999;
+
+	width: 80%;
+	padding: 10px;
+	margin: 20px;
+	min-height: 100px;
+
+	font-family: consolas;
+	font-size: 8px;
+}
+
+.timer {
+	border: solid black 1px;
+	width: 150px;
+	height: 25px;
+}
+
+.timer_bar {
+	width: 100%;
+	height: 100%;
+
+	background-color: red;
+}		

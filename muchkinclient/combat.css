@@ -1,0 +1,17 @@
+
+.combat {
+	background-color: #ffd09a;
+	position: absolute;
+	top: 200px;
+	left: 650px;
+}
+
+.combat_players, 
+.combat_monsters {
+	display: inline-block;
+
+	min-height: 50px;
+	min-width: 100px;
+
+	border: solid black 1px;
+}
