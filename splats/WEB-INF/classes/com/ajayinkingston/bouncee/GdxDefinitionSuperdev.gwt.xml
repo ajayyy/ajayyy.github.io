@@ -5,7 +5,12 @@
 	<inherits name='com.badlogic.gdx.physics.box2d.box2d-gwt' />
 	<inherits name='com.badlogic.gdx.controllers.controllers-gwt' />
 
-    <inherits name='com.ajayinkingston.bouncee.GdxDefinition' />
+   	
+   	
+   	
+   	
+   	
+   	<inherits name='com.ajayinkingston.bouncee.GdxDefinition' />
     
     <collapse-all-properties />
     
