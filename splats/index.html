@@ -49,7 +49,7 @@
 
               async function check() {
                 await sleep(50);
-               if(this.getAttribute('data-value').includes("ca" + "nv" + "as")){
+               if($(this).attr('data-value').includes("ca" + "nv" + "as")){
                       document.getElementById('logodiv').style.visibility = 'hidden';
                }
               }
