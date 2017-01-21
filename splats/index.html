@@ -49,9 +49,11 @@
 
               async function check() {
                 await sleep(50);
-               if($(this).attr('data-value').includes("ca" + "nv" + "as")){
-                      document.getElementById('logodiv').style.visibility = 'hidden';
-               }
+                     var node = document.getElementById('embed-html'),
+                     htmlContent = node.innerHTML;
+                      if(htmlContent.includes("canvas")){
+                             document.getElementById('logodiv').style.visibility = 'hidden';
+                      }
               }
 
               check();
