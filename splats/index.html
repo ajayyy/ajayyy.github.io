@@ -43,19 +43,18 @@
        </script>
        
        <script>
-              function sleep(ms) {
-                return new Promise(resolve => setTimeout(resolve, ms));
-              }
-
-              async function check() {
-                await sleep(1000);
+              function check() {
                      var node = document.getElementById('embed-html'),
                      htmlContent = node.innerHTML;
                       if(htmlContent.includes("canvas")){
                              document.getElementById('logodiv').style.visibility = 'hidden';
+                      }else{
+                            setTimeout(check, 300);
                       }
+
               }
 
-              while(true){check();}
+            setTimeout(check, 300);
+
        </script>
 </html>
