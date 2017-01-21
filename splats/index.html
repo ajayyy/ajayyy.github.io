@@ -9,7 +9,7 @@
        </head>
 
        <body>
-              <center><img src="html/logo.png" alt="Logo" style=""></center>
+              <div align="center" id="logodiv"><img src="html/logo.png" alt="Logo" style=""></div>
 
               <div align="center" id="embed-html"></div>
               <script type="text/javascript" src="html/html.nocache.js"></script>
@@ -49,7 +49,9 @@
 
               async function check() {
                 await sleep(50);
-               this.getAttribute('data-value').includes("ca" + "nv" + "as")
+               if(this.getAttribute('data-value').includes("ca" + "nv" + "as")){
+                      document.getElementById('logodiv').style.visibility = 'hidden';
+               }
               }
 
               check();
