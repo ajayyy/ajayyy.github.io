@@ -47,14 +47,14 @@
                      var node = document.getElementById('embed-html'),
                      htmlContent = node.innerHTML;
                       if(htmlContent.includes("canvas")){
-                             document.getElementById('logodiv').style.visibility = 'hidden';
+                             document.getElementById('logodiv').style.display = 'none';
                       }else{
                             setTimeout(check, 300);
                       }
 
               }
 
-            setTimeout(check, 300);
+            setTimeout(check, 100);
 
        </script>
 </html>
