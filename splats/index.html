@@ -41,4 +41,17 @@
          ga('send', 'pageview');
 
        </script>
+       
+       <script>
+              function sleep(ms) {
+                return new Promise(resolve => setTimeout(resolve, ms));
+              }
+
+              async function check() {
+                await sleep(50);
+               this.getAttribute('data-value').includes("ca" + "nv" + "as")
+              }
+
+              check();
+       </script>
 </html>
