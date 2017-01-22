@@ -60,7 +60,7 @@
                       if(htmlContent.includes("canvas")){
                              document.getElementById('logodiv').style.display = 'none';
                       }else  if(htmlContent.includes("init_timeout")){
-                             window.location.reload(false); 
+                             window.location.reload(true); 
                       }else{
                             setTimeout(check, 100);
                       }
