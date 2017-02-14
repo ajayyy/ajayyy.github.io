@@ -49,13 +49,13 @@
         	function randomAnswer(){
 
         		Math.seedrandom(document.getElementById('question').value);
-				if(document.getElementById('question').value.prototype.endsWith("\n")){
-					document.getElementById("background").className = "maybe";
-					document.getElementById("choice").className = "maybe";
-					document.getElementById("choice").innerHTML = "No Adding Enters!!";
-					document.getElementById("face").innerHTML = "Nice Try ¯\\_(ツ)_/¯";  
-				}
-				else if(Math.random() > 0.5){
+// 				if(document.getElementById('question').value.prototype.endsWith("\n")){
+// 					document.getElementById("background").className = "maybe";
+// 					document.getElementById("choice").className = "maybe";
+// 					document.getElementById("choice").innerHTML = "No Adding Enters!!";
+// 					document.getElementById("face").innerHTML = "Nice Try ¯\\_(ツ)_/¯";  
+// 				}
+				if(Math.random() > 0.5){
 					document.getElementById("background").className = "yes";
 					document.getElementById("choice").className = "yes";
 					document.getElementById("choice").innerHTML = "Yes";
