@@ -1,0 +1,36 @@
+<style>
+  *{
+    font-family: sans-serif;
+    font-size: 20
+  }
+</style>
+
+<input id="input"> Go </input>
+
+<button onclick="generate()"> Go </button>
+<p/>
+
+Result: 
+<p/>
+
+<div id="output">
+  
+</div>
+
+<script>
+  String.prototype.replaceAll = function(search, replacement) {
+    var target = this;
+    return target.replace(new RegExp(search, 'g'), replacement);
+};
+  function generate(){
+    
+    var inputtext = document.getElementById("input").value;
+    
+    inputtext = inputtext.replaceAll(" ","\", \"")
+    inputtext = "\"" + inputtext + "\"";
+
+    
+    document.getElementById("output").innerHTML = inputtext;
+  }
+  
+</script>
