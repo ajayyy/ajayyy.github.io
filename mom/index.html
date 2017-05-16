@@ -19,6 +19,8 @@ So, as always, I could not think of anything. So, I decided to make a GIFT IDEA 
 
 <button onclick="generate()" id="button" > Generate a gift idea! :P </button> <---- Hit this button
 <p/>
+<button onclick="generatePoem()" id="button" > Generate a poem gift idea! :P </button> <---- Hit this button
+<p/>
 
 Idea: 
 <p/>
@@ -82,6 +84,64 @@ Idea:
     
     document.getElementById("giftIdea").innerHTML = "<center>" + idea + "</center>";
   }
+  
+  function generatePoem(){//won't be so sad, won't be very bad, will make them happy, 
+  
+    idea = "If you"
+    idea += " " + verb[getRandomInt(verb.length)]
+    idea += " "
+    var randomitem = items[getRandomInt(items.length)]
+    if(!randomitem.endsWith("s")){
+      idea += " a"
+      if (startsWith(randomitem, vowels)){
+        idea += "n"
+      }
+    }
+    idea += " " + randomitem;
+    idea += ", they won't be very sad"
+    
+    idea += "<p/>If you"
+    idea += " " + verb[getRandomInt(verb.length)]
+    idea += " "
+    var randomitem = items[getRandomInt(items.length)]
+    if(!randomitem.endsWith("s")){
+      idea += " a"
+      if (startsWith(randomitem, vowels)){
+        idea += "n"
+      }
+    }
+    idea += " " + randomitem;
+    idea += ", it could be very bad"
+    
+    idea += "<p/>If you"
+    idea += " " + verb[getRandomInt(verb.length)]
+    idea += " "
+    var randomitem = items[getRandomInt(items.length)]
+    if(!randomitem.endsWith("s")){
+      idea += " a"
+      if (startsWith(randomitem, vowels)){
+        idea += "n"
+      }
+    }
+    idea += " " + randomitem;
+    idea += ", it could make them happy"
+    
+    idea += "<p/>If you"
+    idea += " " + verb[getRandomInt(verb.length)]
+    idea += " "
+    var randomitem = items[getRandomInt(items.length)]
+    if(!randomitem.endsWith("s")){
+      idea += " a"
+      if (startsWith(randomitem, vowels)){
+        idea += "n"
+      }
+    }
+    idea += " " + randomitem;
+    idea += ", it could turn out very handy"
+    
+    document.getElementById("giftIdea").innerHTML = "<center>" + idea + "</center>";
+  }
+  
   
   function getRandomInt(max) {
     min = 0;
