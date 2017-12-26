@@ -1,0 +1,154 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Ranchers', cursive;
+
+  color: black;
+  background: linear-gradient(#39bff1, #237390);
+}
+
+*:not(div) {
+  /*animation-name: backgroundAnimation;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;*/
+}
+
+textarea {
+  background-color: white;
+  height: 30%;
+  width: 40%;
+  font-family: sans-serif;
+
+}
+
+#explination {
+  font-size: 30px;
+}
+
+.list {
+  font-size: 20px;
+}
+
+@keyframes backgroundAnimation {
+    0% {background-color: #14dec6;}
+    20% {background-color: #20b5a3;}
+    40% {background-color: #4bcfbf;}
+    60% {background-color: #14c0de;}
+    80% {background-color: #14dea7;}
+    100% {background-color: #14dec6;}
+}
+
+.title {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: 'Ranchers', cursive;
+  color: #410dc1;
+  font-size: 50px;
+  animation-name: titleAnimation;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes titleAnimation {
+    0% {
+      color: #e00000;
+      transform: translate(0px, 0px) rotate(0deg);
+    }
+    50% {
+      color: #be0404;
+      transform: translate(5px, 5px) rotate(1deg);
+    }
+    100% {
+      color: #e00000;
+      transform: translate(0px, 0px) rotate(0deg);
+    }
+}
+
+#thatsenough {
+    width: 250px;
+}
+
+#excludemusic {
+  width: 200px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 20px;
+}
+
+#savehistory {
+  width: 350px;
+  color: black;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+#loadwatchhistory {
+  width: 430px;
+}
+
+#viewsource {
+  width: 270px;
+}
+
+.button {
+  background: #325eb4;
+  border-radius: 90px 90px 90px 90px;
+  content: "";
+  height: 50px;
+  line-height: 50px;
+  width: 250px;
+
+  font-weight: bold;
+  font-size: 25px;
+  text-decoration: none;
+
+  text-align: center;
+  align-content: center;
+
+  transform: scale(1);
+  animation-name: shrink;
+  animation-duration: 0.5s;
+}
+
+.grow {
+
+  outline: 1px solid transparent;
+
+  transform: scale(1);
+  animation-name: shrink;
+  animation-duration: 0.5s;
+}
+
+.grow:hover {
+  animation-name: grow;
+  animation-duration: 0.5s;
+  transform: scale(1.25);
+}
+
+.bob {
+  animation-name: bobing;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+
+.button:hover {
+  cursor: pointer;
+  animation-name: grow;
+  animation-duration: 0.5s;
+  transform: scale(1.25);
+}
+
+@keyframes bobing {
+    0% {transform: translate(0px, 0px);}
+    50% {transform: translate(0px, 5px);}
+    100% {transform: translate(0px, 0px);}
+}
+
+@keyframes shrink {
+    from {transform: scale(1.25);}
+    to {transform: scale(1);}
+}
+
+@keyframes grow {
+    from {transform: scale(1);}
+    to {transform: scale(1.25);}
+}
