@@ -1,0 +1,76 @@
+* {
+  background-color: #333333;
+}
+
+#title {
+  background-color: #636363;
+
+  text-align: center;
+  vertical-align: middle;
+
+  font-family: sans-serif;
+  font-size: 50;
+  color: #212121;
+
+  /* height: 100; */
+
+  padding: 20;
+
+  transition: font-size 1s;
+}
+
+#title:hover {
+  font-size: 60;
+
+  transition: font-size 1s;
+}
+
+.subtitle {
+  font-family: sans-serif;
+  font-size: 40;
+  color: #dad8d8;
+
+  transition: font-size 0.4s;
+}
+
+.subtitle:hover {
+  font-size: 50;
+
+  transition: font-size 0.4s;
+}
+
+.profilepic {
+  vertical-align: middle;
+
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.link {
+
+  padding: 20;
+
+  height: 80px;
+
+  transition: height 0.2s;
+}
+
+.link:hover {
+  height: 100px;
+
+  transition: height 0.2s;
+}
+
+#contact {
+  font-family: sans-serif;
+  font-size: 20;
+  color: #e8e8e8;
+
+  text-align: center;
+
+  padding: 10;
+}
