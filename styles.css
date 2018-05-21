@@ -74,3 +74,7 @@ a {
 
   padding: 10;
 }
+
+a {
+  color: inherit; 
+} 
