@@ -1,4 +1,4 @@
-* {
+:not(.hljs-keyword):not(.hljs-comment):not(.hljs-number):not(.hljs-string):not(pre):not(code) {
   background-color: #333333;
 }
 
@@ -30,6 +30,8 @@
   font-size: 40;
   color: #dad8d8;
 
+  padding-top: 10;
+
   transition: font-size 0.4s;
 }
 
@@ -48,10 +50,10 @@
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 .link {
-
   padding: 20;
 
   height: 80px;
@@ -65,9 +67,9 @@ a {
   transition: height 0.2s;
 }
 
-#contact {
+#contact,.smalllink {
   font-family: sans-serif;
-  font-size: 20;
+  font-size: 25;
   color: #e8e8e8;
 
   text-align: center;
@@ -75,6 +77,22 @@ a {
   padding: 10;
 }
 
-a {
-  color: inherit; 
-} 
+p {
+  font-family: sans-serif;
+  font-size: 20;
+  color: #c4c4c4;
+
+  padding: 10;
+}
+
+#recentPostTitle {
+  font-family: sans-serif;
+  font-size: 30;
+  color: #dad8d8;
+
+}
+
+h1,h2,h3,h4,h5 {
+  font-family: sans-serif;
+  color: #dad8d8;
+}

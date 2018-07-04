@@ -1,6 +1,14 @@
 <head>
 
+  <title> Ajay Ramachandran </title>
+
   <link href="styles.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="dracula.css">
+
+  <script src="https://cdn.steemjs.com/lib/latest/steem.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/8.4.1/markdown-it.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script src="latestPost.js"></script>
 
 </head>
 
@@ -9,7 +17,6 @@
   <div id="title">
     <img src="profilepic.jpg" height="80" class="profilepic"/>
       Ajay Ramachandran
-      <!-- <img src="newprofilepic.jpg" height="80" class="profilepic"/> -->
   </div>
 
   <center>
@@ -31,12 +38,39 @@
 
       <a href="https://play.google.com/store/apps/dev?id=5273797972836811580"><img src="googleplay.svg" class="link" /></a>
 
+      <!-- Contact Info -->
+      <div id="contact">
+        Email: <a href="mailto:dev@ajay.app">dev@ajay.app</a>
+      </div>
 
+      <!-- About Me -->
+      <div class="subtitle">
+        About Me
+      </div>
 
-  </center>
+      <p>
+        I am currently working on a game called Voster Coaster, which will be a roller coaster building and tycoon game for VR headsets.
+        This game is open source and available on GitHub at <a href="https://github.com/ajayyy/VosterCoasterVR</a>">https://github.com/ajayyy/VosterCoasterVR</a>
+      </p>
 
-  <div id="contact">
-    Email: <a href="mailto:dev@ajay.app">dev@ajay.app</a>
-  </div>
+      <!-- Recent Posts -->
+      <div class="subtitle">
+        <a href="blog.html"> Latest From My Development Blog </a>
+      </div>
+
+      <div id="recentPostTitle">
+
+      </div>
+
+    </center>
+
+    <div id="recentPostBody">
+      <center> <p> Loading... </p> </center>
+    </div>
+
+    <div class="smalllink">
+      <a href="blog.html"> See all of my development blog </a>
+    </div>
+
 
 </body>
