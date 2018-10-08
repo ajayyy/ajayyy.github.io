@@ -83,7 +83,7 @@ a {
   text-decoration: none;
 }
 
-p {
+p,li {
   font-family: sans-serif;
   font-size: 20;
   color: #c4c4c4;
