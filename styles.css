@@ -89,6 +89,8 @@ p,li {
   color: #c4c4c4;
 
   padding: 10;
+  
+  max-width: 80%;
 }
 
 #recentPostTitle {
