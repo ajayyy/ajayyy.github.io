@@ -1,0 +1,146 @@
+<html>
+
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="viewport" content = "width = device-height, initial-scale = 0.5, user-scalable = 1, height = device-width" />
+<meta name="mobile-web-app-capable" content="yes"><body>
+<p id='stuff'></p>
+
+
+<script>
+
+var vowels = ["a", "e", "i", "o", "u"]
+
+var starters = ["Hey, sorry about the confusion but I think you still need to", "I'll transfer you to my manager to"]
+
+var ends = ["fax that in", "mail everything in", "call us back", "call 1-800-291-3921", "turn it on and off again", "stay on hold for another 20 minutes"]
+
+var items = ["truck", "towel", "piano", "sidewalk", "bow", "plastic", "fork", "tomato", "cinder", "block", "carrots", "video", "games", "tissue", "box", "magnet", "wagon", "box", "clamp", "toothpaste", "tooth", "picks", "candle", "bowl", "purse", "pencil", "ice", "cube", "tray", "greeting", "card", "chalk", "camera", "soy", "sauce", "packet", "sticky", "note", "nail", "clippers", "brocolli", "rug", "grid", "paper", "model", "car", "house", "soap", "computer", "shawl", "sponge", "pool", "stick", "teddies", "fridge", "puddle", "water", "bottle", "playing", "card", "keys", "bottle", "cap", "sailboat", "mop", "nail", "file", "bread", "hair", "brush", "chocolate", "scotch", "tape", "food", "toilet", "headphones", "USB", "drive", "ipod", "balloon", "mirror", "cup", "beef", "keyboard", "desk", "zipper", "fake", "flowers", "hair", "tie", "blouse", "controller", "coasters", "bracelet", "bananas", "radio", "boom", "box", "chapter", "book", "spring", "chair", "stockings", "sun", "glasses", "phone", "checkbook", "pants", "rubber", "band", "speakers", "screw", "leg", "warmers", "perfume", "rubber", "duck", "slipper", "bag", "shampoo", "apple", "seat", "belt", "glasses", "air", "freshener", "pen", "lamp", "shade", "drill", "press", "flag", "bottle", "sofa", "clock", "tv", "bed", "washing", "machine", "sharpie", "blanket", "vase", "soda", "can", "twister", "button", "knife", "couch", "sand", "paper", "needle", "money", "photo", "album", "clothes", "mp3", "player", "white", "out", "shirt", "car", "deodorant", "doll", "lotion", "key", "chain", "floor", "pillow", "glow", "stick", "cell", "phone", "face", "wash", "street", "lights", "table", "lip", "gloss", "flowers", "shoe", "lace", "glass", "twezzers", "eye", "liner", "wallet", "door", "CD", "fork", "spoon", "sketch", "pad", "mouse", "pad", "bookmark", "newspaper", "canvas", "toothbrush", "clay", "pot", "charger", "packing", "peanuts", "drawer", "paint", "brush", "sandal", "picture", "frame", "milk", "ring", "shoes", "thermometer", "television", "thermostat", "tree", "rusty", "nail", "outlet", "stop", "sign", "paper", "candy", "wrapper", "window", "toe", "ring", "hanger", "credit", "card", "lace", "watch", "lamp", "buckel", "conditioner", "monitor", "book", "thread", "helmet", "cookie", "jar", "plate", "remote", "tire", "swing", "cat", "cork", "shovel", "socks", "eraser"];
+
+var descriptions = ["to help a", "to make a", "to destroy a", "to learn about a", "to get a", "to be able to use a"]
+//random verb too?
+var idea = "";
+
+var verb = ["accept", "acknowledge", "add", "admire", "advise", "adopt", "afford", "alert", "allow", "amuse", "analyze", "announce", "annoy", "answer", "applaud", "appreciate", "approve", "arrange", "arrest", "arrive", "ask", "assert", "assure", "attach", "attack", "attempt", "attract", "auction", "avoid", "bake", "balance", "ban", "bandage", "barter", "bat", "bathe", "battle", "be", "beam", "bear", "beat", "become", "befriend", "beg", "begin", "believe", "bend", "berate", "besiege", "bestow", "bet", "bid", "bite", "bleach", "bleed", "bless", "blind", "blink", "blot", "blow", "blurt", "blush", "boast", "bob", "boil", "bolt", "bomb", "book", "bore", "borrow", "bounce", "bow", "box", "brag", "brake", "branch", "brand", "break", "breathe", "breed", "bring", "broadcast", "broil", "bruise", "brush", "bubble", "build", "bump", "burn", "burnish", "bury", "buy", "buzz", "cajole", "calculate", "call", "camp", "care", "carry", "carve", "cause", "caution", "catch", "challenge", "change", "chant", "charge", "chase", "cheat", "check", "cheer", "chew", "chide", "chip", "choke", "chomp", "choose", "chop", "claim", "clap", "clean", "clear", "climb", "clip", "close", "coach", "coil", "collect", "color", "comb", "come", "comfort", "command", "comment", "communicate", "compare", "compete", "complain", "complete", "concede", "concentrate", "concern", "conclude", "concur", "confess", "confide", "confirm", "connect", "consent", "consider", "consist", "contain", "contend", "continue", "cook", "copy", "correct", "cost", "cough", "count", "counter", "cover", "covet", "crack", "crash", "crave", "crawl", "crochet", "cross", "criticize", "croak", "cross-examine", "crowd", "crush", "cry", "cure", "curl", "curse", "curve", "cut", "cycle", "dam", "damage", "dance", "dare", "deal", "debate", "decay", "deceive", "decide", "decipher", "declare", "decorate", "delay", "delight", "deliver", "demand", "deny", "depend", "describe", "desert", "deserve", "desire", "deter", "develop", "dial", "dictate", "die", "dig", "digress", "direct", "disclose", "dislike", "dive", "divide", "divorce", "divulge", "do", "dock", "dole", "dote", "double", "doubt", "drag", "drain", "draw", "dream", "dress", "drip", "drill", "drink", "drive", "drone", "drop", "drown", "dry", "dupe", "dump", "dust", "dye", "earn", "eat", "echo", "edit", "educate", "elope", "embarrass", "emigrate", "emit", "emphasize", "employ", "empty", "enchant", "encode", "encourage", "end", "enjoin", "enjoy", "enter", "entertain", "enunciate", "envy", "equivocate", "escape", "evacuate", "evaporate", "exaggerate", "examine", "excite", "exclaim", "excuse", "exercise", "exist", "expand", "expect", "expel", "exhort", "explain", "explode", "explore", "extend", "extoll", "face", "fade", "fail", "fall", "falter", "fasten", "favor", "fax", "fear", "feed", "feel", "fence", "fetch", "fight", "file", "fill", "film", "find", "fire", "fish", "fit", "fix", "flap", "flash", "flee", "float", "flood", "floss", "flow", "flower", "fly", "fold", "follow", "fool", "force", "foretell", "forget", "forgive", "form", "found", "frame", "freeze", "fret", "frighten", "fry", "fume", "garden", "gasp", "gather", "gaze", "gel", "get", "gild", "give", "glide", "glue", "gnaw", "go", "grab", "grate", "grease", "greet", "grill", "grin", "grip", "groan", "grow", "growl", "grumble", "grunt", "guarantee", "guard", "guess", "guide", "gurgle", "gush", "hail", "hammer", "hand", "handle", "hang", "happen", "harass", "harm", "harness", "hate", "haunt", "have", "head", "heal", "heap", "hear", "heat", "help", "hide", "highlight", "hijack", "hinder", "hint", "hiss", "hit", "hold", "hook", "hoot", "hop", "hope", "hover", "howl", "hug", "hum", "hunt", "hurry", "hurt", "ice", "identify", "ignore", "imagine", "immigrate", "imply", "implore", "impress", "improve", "include", "increase", "infect", "inflate", "influence", "inform", "infuse", "inject", "injure", "inquire", "insist", "inspect", "inspire", "instruct", "intend", "interest", "interfere", "interject", "interrupt", "introduce", "invent", "invest", "invite", "irritate", "iron", "itch", "jab", "jabber", "jail", "jam", "jeer", "jest", "jog", "join", "joke", "jolt", "judge", "juggle", "jump", "keep", "kick", "kill", "kiss", "kneel", "knit", "knock", "knot", "know", "label", "lament", "land", "last", "laugh", "lay", "lead", "lean", "learn", "leave", "lecture", "lend", "let", "level", "license", "lick", "lie", "lift", "light", "lighten", "like", "list", "listen", "live", "load", "loan", "lock", "long", "look", "loosen", "lose", "love", "lower", "mail", "maintain", "make", "man", "manage", "mar", "march", "mark", "marry", "marvel", "mate", "matter", "mean", "measure", "meet", "melt", "memorize", "mend", "mention", "merge", "milk", "mine", "miss", "mix", "moan", "moor", "mourn", "molt", "move", "mow", "mug", "multiply", "mumble", "murder", "mutter", "nag", "nail", "name", "nap", "need", "nest", "nod", "note", "notice", "number", "obey", "object", "observe", "obtain", "occur", "offend", "offer", "ogle", "oil", "omit", "open", "operate", "order", "overflow", "overrun", "owe", "own", "pack", "pad", "paddle", "paint", "pant", "park", "part", "pass", "paste", "pat", "pause", "pay", "peck", "pedal", "peel", "peep", "peer", "peg", "pelt", "perform", "permit", "pester", "pet", "phone", "pick", "pinch", "pine", "place", "plan", "plant", "play", "plead", "please", "pledge", "plow", "plug", "point", "poke", "polish", "ponder", "pop", "possess", "post", "postulate", "pour", "practice", "pray", "preach", "precede", "predict", "prefer", "prepare", "present", "preserve", "press", "pretend", "prevent", "prick", "print", "proceed", "proclaim", "produce", "profess", "program", "promise", "propose", "protect", "protest", "provide", "pry", "pull", "pump", "punch", "puncture", "punish", "push", "put", "question", "quilt", "quit", "quiz", "quote", "race", "radiate", "rain", "raise", "rant", "rain", "rate", "rave", "reach", "realize", "read", "rebuff", "recall", "receive", "recite", "recognize", "recommend", "record", "reduce", "reflect", "refuse", "regret", "reign", "reiterate", "reject", "rejoice", "relate", "relax", "release", "rely", "remain", "remember", "remind", "remove", "repair", "repeat", "replace", "reply", "report", "reprimand", "reproduce", "request", "rescue", "retire", "retort", "return", "reveal", "reverse", "rhyme", "ride", "ring", "rinse", "rise", "risk", "roar", "rob", "rock", "roll", "rot", "row", "rub", "ruin", "rule", "run", "rush", "sack", "sail", "satisfy", "save", "savor", "saw", "say", "scare", "scatter", "scoff", "scold", "scoot", "scorch", "scrape", "scratch", "scream", "screech", "screw", "scribble", "seal", "search", "see", "sell", "send", "sense", "separate", "serve", "set", "settle", "sever", "sew", "shade", "shampoo", "share", "shave", "shelter", "shift", "shiver", "shock", "shoot", "shop", "shout", "show", "shriek", "shrug", "shut", "sigh", "sign", "signal", "sin", "sing", "singe", "sip", "sit", "skate", "skateboard", "sketch", "ski", "skip", "slap", "sleep", "slice", "slide", "slip", "slow", "smash", "smell", "smile", "smoke", "snap", "snarl", "snatch", "sneak", "sneer", "sneeze", "snicker", "sniff", "snore", "snort", "snoop", "snooze", "snow", "soak", "sob", "soothe", "sound", "sow", "span", "spare", "spark", "sparkle", "speak", "speculate", "spell", "spend", "spill", "spin", "spoil", "spot", "spray", "sprout", "sputter", "squash", "squeeze", "stab", "stain", "stammer", "stamp", "stand", "star", "stare", "start", "stash", "state", "stay", "steer", "step", "stipulate", "stir", "stitch", "stop", "store", "strap", "storm", "stow", "strengthen", "stress", "stretch", "strip", "stroke", "stuff", "stutter", "stray", "strum", "strut", "stun", "stunt", "submerge", "succeed", "suffer", "suggest", "suit", "supply", "support", "suppose", "surmise", "surprise", "surround", "suspect", "suspend", "sway", "swear", "swim", "swing", "switch", "swoop", "sympathize", "talk", "take", "tame", "tap", "taste", "taunt", "teach", "tear", "tease", "telephone", "tell", "tempt", "terrify", "test", "testify", "thank", "thaw", "theorize", "think", "threaten", "throw", "thunder", "tick", "tickle", "tie", "time", "tip", "tire", "toast", "toss", "touch", "tour", "tow", "trace", "track", "trade", "train", "translate", "transport", "trap", "travel", "treat", "tremble", "trick", "trickle", "trim", "trip", "trot", "trouble", "trust", "trounce", "try", "tug", "tumble", "turn", "twist", "type", "understand", "undress", "unfasten", "unite", "unlock", "unpack", "uphold", "upset", "upstage", "urge", "untie", "use", "usurp", "utter", "vacuum", "value", "vanish", "vanquish", "venture", "visit", "voice", "volunteer", "vote", "vouch", "wail", "wait", "wake", "walk", "wallow", "wander", "want", "warm", "warn", "wash", "waste", "watch", "water", "wave", "waver", "wear", "weave", "wed", "weigh", "welcome", "whimper", "whine", "whip", "whirl", "whisper", "whistle", "win", "wink", "wipe", "wish", "wobble", "wonder", "work", "worry", "wrap", "wreck", "wrestle", "wriggle", "write", "writhe", "x-ray", "yawn", "yell", "yelp", "yield", "yodel", "zip", "zoom"];
+
+function generate(){
+
+  idea = starters[getRandomInt(starters.length)]
+  var randomitem = items[getRandomInt(items.length)]
+
+  idea += " " + verb[getRandomInt(verb.length)]
+  randomitem = items[getRandomInt(items.length)]
+  if(!randomitem.endsWith("s")){
+    idea += " a"
+    if (startsWith(randomitem, vowels)){
+      idea += "n"
+    }
+  }
+  idea += " " + randomitem;
+
+  var randomend = ends[getRandomInt(ends.length)]
+  idea += ". Once that's done, please " + randomend;
+  
+  return(idea)
+}
+
+function generateRaw(){
+
+  idea = ""
+  var randomitem = items[getRandomInt(items.length)]
+
+  idea += " " + verb[getRandomInt(verb.length)]
+  randomitem = items[getRandomInt(items.length)]
+  if(!randomitem.endsWith("s")){
+    idea += " a"
+    if (startsWith(randomitem, vowels)){
+      idea += "n"
+    }
+  }
+  idea += " " + randomitem;
+
+  var randomend = ends[getRandomInt(ends.length)]
+  idea += ". Once that's done, please " + randomend;
+  
+  return(idea)
+}
+  
+console.log(generate())
+
+var step = 0;
+var frame = 0;
+
+var message = "";
+var buttonTitles = ["Next"];
+
+setInterval(update,1000/50);
+function update(){
+  if(step<message.split("").length){
+    document.getElementById('stuff').innerHTML += message.split("")[step];
+    step++;
+  }else if(step==message.split("").length){
+    for(var i=0;i<buttonTitles.length;i++){
+      document.getElementById('stuff').innerHTML += "<button onclick=\"clicked(" + i + ")\">" + buttonTitles[i] + "</button>";
+    }
+    buttonTitles = ["Next"];
+    step++
+  }
+}
+
+function clicked(button) {
+  document.getElementById("stuff").innerHTML += "<br />";
+  frame ++;
+  step = 0;
+  switch(frame) {
+    case 1:
+      message = "Hello, thanks for calling about getting a Canadian nursing license.";
+      break;
+    case 2:
+      message = "So, just to let you know, we still need some stuff from you, Let me put you on hold while I figure some stuff out";
+      break;
+    case 3:
+      message = "..............................................";
+      break;
+    case 4:
+      message = generate();
+      break;
+    case 5:
+      message = "Is that all you need?";
+      buttonTitles = ["Yes", "I've already done that", "What did you say?"]
+      break;
+    case 6:
+      if (button == 0) {
+        message = "Ok, bye";
+        buttonTitles = [];
+      } else if (button == 1) {
+        message = "Yes, this sometimes happens, we'll just need you to do it again";
+        frame = 4;
+      } else if (button == 2) {
+        message = "I said to " + generateRaw();
+        frame = 4;
+      }
+      break;
+  }
+}
+clicked(0);
+
+
+function getRandomInt(max) {
+  min = 0;
+  max -= 1;
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+function startsWith(text, start){
+  for(var i=0;i<start.length;i++){
+    if(text.startsWith(start[i])){
+      return true;
+    }
+  }
+  return false;
+}
+
+</script>
+
+</body>
+
+</html>
