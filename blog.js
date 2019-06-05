@@ -46,8 +46,7 @@ function loadData(hash) {
     }
     var query = {
       limit: 40,
-      tag: username,
-      category: 'utopian-io'
+      tag: username
     }
     steem.api.getDiscussionsByBlog(query, function(err, result) {
       if(!err) {
