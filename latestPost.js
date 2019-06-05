@@ -3,8 +3,7 @@ var md = window.markdownit();
 
 var query = {
   limit: 10,
-  tag: 'ajayyy',
-  category: 'utopian-io'
+  tag: 'ajayyy'
 }
 
 //list of posts to remove from view
