@@ -3,12 +3,15 @@
 var home = false;
 
 //list of posts to remove from view
-var blacklist = ['exclude-self-votes-from-human-input-for-bot', 'youtube-watch-history-statistics-viewer-logo', '3d-models-for-voster-coaster-food-stalls', 'adding-commands-to-a-discord-bot', 'sync-your-utopian-posts-on-to-your-website'];
+var blacklist = ['exclude-self-votes-from-human-input-for-bot', 'youtube-watch-history-statistics-viewer-logo', '3d-models-for-voster-coaster-food-stalls', 'adding-commands-to-a-discord-bot', 'sync-your-utopian-posts-on-to-your-website', '3d-model-task-request-for-voster-coaster-or-roller-coaster-cart-1535478624679'];
 
 function loadData(hash) {
   //setup markdown-it
-  var md = window.markdownit();
-
+  var md = window.markdownit({
+	  linkify: true,
+	  breaks: false
+  });
+  
   var username = 'ajayyy';
 
   if(hash !== "" && hash !== "/home") {
@@ -16,6 +19,9 @@ function loadData(hash) {
     steem.api.getContent(username, hash, function(err, result) {
       if(!err) {
         document.getElementById('recentPostTitle').innerHTML = result.title;
+		
+		//scroll to top
+		window.scrollTo(0, 0);
 
         //convert the markdown to HTML
         var body = md.render(result.body);
@@ -45,7 +51,7 @@ function loadData(hash) {
       document.getElementById('recentPostBody').innerHTML = "<center> <p> Loading... </p> </center>";
     }
     var query = {
-      limit: 40,
+      limit: 100,
       tag: username
     }
     steem.api.getDiscussionsByBlog(query, function(err, result) {

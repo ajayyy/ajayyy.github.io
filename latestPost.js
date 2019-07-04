@@ -1,5 +1,8 @@
 //setup markdown-it
-var md = window.markdownit();
+var md = window.markdownit({
+	linkify: true,
+	breaks: false
+});
 
 var query = {
   limit: 10,
@@ -7,7 +10,7 @@ var query = {
 }
 
 //list of posts to remove from view
-var blacklist = ['exclude-self-votes-from-human-input-for-bot', 'youtube-watch-history-statistics-viewer-logo', '3d-models-for-voster-coaster-food-stalls', 'adding-commands-to-a-discord-bot', 'sync-your-utopian-posts-on-to-your-website'];
+var blacklist = ['exclude-self-votes-from-human-input-for-bot', 'youtube-watch-history-statistics-viewer-logo', '3d-models-for-voster-coaster-food-stalls', 'adding-commands-to-a-discord-bot', 'sync-your-utopian-posts-on-to-your-website', '3d-model-task-request-for-voster-coaster-or-roller-coaster-cart-1535478624679'];
 
 steem.api.getDiscussionsByBlog(query, function(err, result) {
   if(!err){

@@ -38,7 +38,7 @@
 }
 
 .subtitle:hover {
-  font-size: 50;
+  font-size: 45;
 
   transition: font-size 0.4s;
 }
@@ -64,7 +64,7 @@ a {
 }
 
 .link:hover {
-  height: 100px;
+  height: 95px;
 
   transition: height 0.2s;
 }
@@ -89,8 +89,17 @@ p,li {
   color: #c4c4c4;
 
   padding: 10;
-  
-  max-width: 80%;
+}
+
+p,li,code {
+	max-width: 60%;
+	text-align: left;
+}
+
+img {
+	max-width: 100%;
+
+	text-align: center;
 }
 
 #recentPostTitle {
