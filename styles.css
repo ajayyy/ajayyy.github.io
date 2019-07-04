@@ -91,9 +91,20 @@ p,li {
   padding: 10;
 }
 
-p,li,code {
+p,li,code,a {
 	max-width: 60%;
 	text-align: left;
+	overflow-wrap: break-word;
+}
+
+@media screen and (orientation:portrait) {
+  p,li,code,a {
+	max-width: 100%;
+  }
+}
+
+.previewImage {
+	max-height: 200px;
 }
 
 img {
@@ -106,7 +117,6 @@ img {
   font-family: sans-serif;
   font-size: 30;
   color: #dad8d8;
-
 }
 
 h1,h2,h3,h4,h5,h6 {
