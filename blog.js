@@ -19,6 +19,7 @@ function loadData(hash) {
     steem.api.getContent(username, hash, function(err, result) {
       if(!err) {
         document.getElementById('recentPostTitle').innerHTML = result.title;
+		document.getElementById('recentPostDate').innerHTML = "Posted " + result.created.split("T")[0];
 		
 		//scroll to top
 		window.scrollTo(0, 0);

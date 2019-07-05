@@ -30,6 +30,7 @@ steem.api.getDiscussionsByBlog(query, function(err, result) {
       document.getElementById('recentPostTitle').innerHTML = "Error Fetching Post";
     } else {
       document.getElementById('recentPostTitle').innerHTML = post.title;
+	  document.getElementById('recentPostDate').innerHTML = "Posted " + post.created.split("T")[0];
       //convert the markdown to HTML
       document.getElementById('recentPostBody').innerHTML = md.render(post.body);
       //Highlight code
