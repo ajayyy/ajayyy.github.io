@@ -61,6 +61,7 @@ function loadData(hash) {
     if (document.getElementById('recentPostTitle') !== null) {
       document.getElementById('recentPostTitle').innerHTML = "";
       document.getElementById('recentPostBody').innerHTML = "<center> <p> Loading... </p> </center>";
+      document.getElementById('recentPostDate').innerHTML = "";
     }
     var query = {
       limit: 100,
