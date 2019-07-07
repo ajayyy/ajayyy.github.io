@@ -2,6 +2,9 @@
 //is this page currently on the home page
 var home = false;
 
+//is the home loading
+var loadingHome = false;
+
 //list of posts to remove from view
 var blacklist = ['exclude-self-votes-from-human-input-for-bot', 'youtube-watch-history-statistics-viewer-logo', '3d-models-for-voster-coaster-food-stalls', 'adding-commands-to-a-discord-bot', 'sync-your-utopian-posts-on-to-your-website', '3d-model-task-request-for-voster-coaster-or-roller-coaster-cart-1535478624679'];
 
@@ -40,6 +43,14 @@ function loadData(hash) {
       }
     })
   } else {
+    //check if home is loading
+    if (loadingHome) {
+      return;
+    }
+	  
+    //set that home is loading
+    loadingHome = true;
+	  
     //check if the home button has been hit while already on the home page
     if (hash === "/home" && home){
       window.location.href = "./index.html";
@@ -47,7 +58,7 @@ function loadData(hash) {
       window.location.href = "#";
     }
 
-    if (document.getElementById('recentPostTitle') !== null){
+    if (document.getElementById('recentPostTitle') !== null) {
       document.getElementById('recentPostTitle').innerHTML = "";
       document.getElementById('recentPostBody').innerHTML = "<center> <p> Loading... </p> </center>";
     }
@@ -77,6 +88,8 @@ function loadData(hash) {
 
         //set that the page is on the home page
         home = true;
+	//not loading home anymore
+	loadingHome = false;
       }
     });
   }
