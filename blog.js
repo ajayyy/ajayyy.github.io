@@ -62,11 +62,12 @@ function loadData(hash) {
             //if it does not exist in the blacklist
             if (blacklist.indexOf(result[i].permlink) < 0) {
               document.getElementById('recentPostTitle').innerHTML += "<a href='#" + result[i].permlink + "'> " + result[i].title + "</a><br/>";
-			  if (JSON.parse(result[i].json_metadata).image != undefined && JSON.parse(result[i].json_metadata).image.length > 0) {
-				 document.getElementById('recentPostTitle').innerHTML += "<img class='previewImage' src='" + JSON.parse(result[i].json_metadata).image[0] + "'/><br/><br/>";
-			  }
+              document.getElementById('recentPostTitle').innerHTML += "<span id='recentPostDate'>Posted " + result.created.split("T")[0] + "</span>";  
+              
+	      if (JSON.parse(result[i].json_metadata).image != undefined && JSON.parse(result[i].json_metadata).image.length > 0) {
+                document.getElementById('recentPostTitle').innerHTML += "<img class='previewImage' src='" + JSON.parse(result[i].json_metadata).image[0] + "'/><br/><br/>";
+              }
 		    
-		    document.getElementById('recentPostTitle').innerHTML += "<span id='recentPostDate'>Posted " + result.created.split("T")[0] + "</span>";
             }
           }
         }
