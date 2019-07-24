@@ -17,7 +17,7 @@ function loadData(hash) {
   
   var username = 'ajayyy';
 
-  if(hash !== "" && hash !== "/home") {
+  if(hash !== "" && hash !== "/home" && hash.startsWith("/tag")) {
     //get the post based on the hash provided
     steem.api.getContent(username, hash, function(err, result) {
       if(!err) {
@@ -57,6 +57,11 @@ function loadData(hash) {
     } else if (hash === "/home") {
       window.location.href = "#";
     }
+	
+    let tag = null;
+    if (hash.startsWith("/tag")) {
+	tag = hash.split("=")[1]
+    }
 
     if (document.getElementById('recentPostTitle') !== null) {
       document.getElementById('recentPostTitle').innerHTML = "";
@@ -70,7 +75,12 @@ function loadData(hash) {
     steem.api.getDiscussionsByBlog(query, function(err, result) {
       if(!err) {
         for(var i = 0; i < result.length; i++) {
-          if(result[i].category === 'utopian-io' && result[i].author === "ajayyy"){
+	  let containsCorrectTag = true;
+	  if (tag != null) {
+	      containsCorrectTag = JSON.parse(result[i].json_metadata).tags.includes(tag);
+	  }
+		
+          if(result[i].category === 'utopian-io' && result[i].author === "ajayyy" && containsCorrectTag){
             //if it does not exist in the blacklist
             if (blacklist.indexOf(result[i].permlink) < 0) {
               document.getElementById('recentPostTitle').innerHTML += "<a href='#" + result[i].permlink + "'> " + result[i].title + "</a><br/>";
