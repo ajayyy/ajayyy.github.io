@@ -96,6 +96,15 @@ function loadData(hash) {
 
         //clear body of "Loading..."
         document.getElementById('recentPostBody').innerHTML = "";
+	      
+	//depending on the tag, change the title
+	if (tag == "sponsorblock") {
+	    document.getElementById("latestPostTitle").innerText = "SponsorBlock News";
+	} else if (tag == "vostercoaster") {
+	    document.getElementById("latestPostTitle").innerText = "Voster Coaster News";
+        } else {
+	    document.getElementById("latestPostTitle").innerText = "Latest Posts";
+	}
 
         //set that the page is on the home page
 	//only on the home page if the tag is null, otherwise it's a filtered page
