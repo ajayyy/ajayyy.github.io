@@ -17,7 +17,7 @@ function loadData(hash) {
   
   var username = 'ajayyy';
 
-  if(hash !== "" && hash !== "/home" && hash.startsWith("/tag")) {
+  if(hash !== "" && hash !== "/home" && !hash.startsWith("/tag")) {
     //get the post based on the hash provided
     steem.api.getContent(username, hash, function(err, result) {
       if(!err) {
@@ -98,7 +98,8 @@ function loadData(hash) {
         document.getElementById('recentPostBody').innerHTML = "";
 
         //set that the page is on the home page
-        home = true;
+	//only on the home page if the tag is null, otherwise it's a filtered page
+        home = tag == null;
 	//not loading home anymore
 	loadingHome = false;
       }
