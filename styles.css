@@ -83,7 +83,19 @@ a {
   text-decoration: none;
 }
 
-p,li {
+.projectPreview {
+  position: relative;
+}
+
+.projectPreviewImage {
+  position: absolute;
+  left: -130;
+  width: 130;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+p,li,.descriptionText {
   font-family: sans-serif;
   font-size: 20;
   color: #c4c4c4;
@@ -91,15 +103,23 @@ p,li {
   padding: 10;
 }
 
-p,li,code,a {
+p,li,code,a,.descriptionText {
 	max-width: 60%;
 	text-align: left;
 	overflow-wrap: break-word;
 }
 
 @media screen and (orientation:portrait) {
-  p,li,code,a {
-	max-width: 100%;
+  p,li,code,a,.descriptionText {
+	  max-width: 100%;
+  }
+
+  .projectPreviewImage {
+    position: unset;
+    width: 130;
+    display: block;
+    margin: auto;
+    transform: none;
   }
 }
 
