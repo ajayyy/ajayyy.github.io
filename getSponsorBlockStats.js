@@ -52,4 +52,4 @@ function sendRequestToCustomServer(type, fullAddress, callback) {
     xmlhttp.send();
 }
 
-// getTotalStats();
+getTotalStats();
