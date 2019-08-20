@@ -10,7 +10,7 @@ function getTotalStats() {
             //start count ups
             countUp(document.getElementById("totalUsers"), 0, totalUsers);
             countUp(document.getElementById("totalSubmissions"), 0, totalSubmissions);
-            countUp(document.getElementById("hoursSaved"), 0, (minutesSaved / 60).toFixed(1));
+            countUp(document.getElementById("daysSaved"), 0, (minutesSaved / 60 / 24).toFixed(2));
         }
     });
 }
