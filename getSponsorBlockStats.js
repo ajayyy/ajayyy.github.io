@@ -16,7 +16,7 @@ function getTotalStats() {
 }
 
 function countUp(element, currentNumber, targetNumber) {
-    element.innerText = currentNumber;
+    element.innerText = currentNumber.toLocaleString();
 
     if (currentNumber == targetNumber) {
         //it's done
