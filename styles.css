@@ -1,4 +1,4 @@
-:not(.hljs-keyword):not(.hljs-comment):not(.hljs-number):not(.hljs-string):not(pre):not(code) {
+body {
   background-color: #333333;
 }
 
