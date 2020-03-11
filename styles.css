@@ -37,14 +37,6 @@ body {
   color: #dad8d8;
 
   padding-top: 10;
-
-  transition: font-size 0.4s;
-}
-
-.subtitle:hover {
-  font-size: 45;
-
-  transition: font-size 0.4s;
 }
 
 .profilepic {
