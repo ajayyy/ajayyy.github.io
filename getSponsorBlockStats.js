@@ -3,7 +3,7 @@ function getTotalStats() {
         if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
             let response = JSON.parse(xmlhttp.responseText);
 
-            let totalUsers = response.activeUsers;
+            let totalUsers = response.apiUsers;
             let totalSubmissions = response.totalSubmissions;
             let minutesSaved = response.minutesSaved;
 
